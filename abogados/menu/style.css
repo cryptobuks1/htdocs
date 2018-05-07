@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('reset.css');
+
+
+#nav{
+background-color:#003375;
+margin-top: 15px;
+width:1048px;
+height:45px;
+margin-left:-524px;
+left:50%;
+position:relative;
+border-radius: 10px 10px 10px 10px;
+-ms-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-o-border-radius: 10px 10px 10px 10px;
+
+}
+#navigation 
+{
+width:794px;
+margin-left:-430px;
+left:50%;
+position:relative;
+	border-radius: 10px 10px 10px 10px;
+	-ms-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 20px 20px 10px;
+	-o-border-radius: 10px 10px 10px 10px;
+
+
+}
+
+#navigation li
+{
+
+float:left;
+display:block;
+
+}
+
+#navigation li a
+{
+	background-image: url(images/sprite.jpg);
+	display: block;
+	outline: none;
+	position: relative;
+	height: 45px;
+	text-decoration: none;
+	width: auto;
+	visibility: inherit;
+
+}
+
+
+
+	
+	#navigation .home 
+	{
+	background-position:0px 0px;
+	width:100px;
+	height:45px;
+	border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-o-border-radius: 10px 0px 0px 10px;
+	
+	}
+	
+	#navigation .services 
+	{
+	background-position:-100px 0px;
+	width:120px;
+	height:45px;
+	}
+	
+	#navigation .portfolio 
+	{
+	background-position:-220px 0px;
+	width:148px;
+	height:45px;
+	}
+	
+	#navigation .about 
+	{
+	background-position:-368px 0px;
+	width:161px;
+	height:45px;
+	}
+	
+	#navigation .contact 
+	{
+	background-position:-529px 0px;
+	width:155px;
+	height:45px;
+	}
+	
+	#navigation .ayuda 
+	{
+	background-position:-684px 0px;
+	width:109px;
+	height:45px;
+	border-radius: 0px 11px 11px 0px;
+	-ms-border-radius: 0px 11px 11px 0px;
+	-webkit-border-radius: 0px 11px 11px 0px;
+	-moz-border-radius: 0px 11px 11px 0px;
+	-o-border-radius: 0px 11px 11px 0px;
+
+	}
+	
+	
+	
+	#navigation a .hover {
+	background: transparent  url(images/sprite.jpg) no-repeat;
+	display:block ;
+	opacity: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	
+	}
+	
+	#navigation .home :hover {
+	background-position: -0px -45px;
+	border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-o-border-radius: 10px 0px 0px 10px;
+
+	}
+	#navigation .services :hover{
+	background-position: -100px -45px;
+	
+	}
+	#navigation .portfolio :hover {
+	background-position: -220px -45px;
+	}
+	#navigation .about :hover {
+	background-position: -368px -45px;
+	}
+	#navigation .contact :hover {
+	background-position: -529px -45px;
+	}
+	#navigation .ayuda :hover {
+	background-position: -684px -45px;
+	border-radius: 0px 11px 11pxx 0px;
+	-ms-border-radius: 0px 11px 11px 0px;
+	-webkit-border-radius: 0px 40px 11px 0px;
+	-moz-border-radius: 0px 11px 11px 0px;
+	-o-border-radius: 0px 11px 11px 0px;
+	}
+	

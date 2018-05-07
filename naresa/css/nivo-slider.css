@@ -1,0 +1,129 @@
+/*
+ * jQuery Nivo Slider v2.7.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+@font-face {
+    font-family: 'trheavy';
+    src: url('../fuentes/tr heavy/01_27-webfont.eot');
+    src: url('../fuentes/tr heavy/01_27-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/tr heavy/01_27-webfont.woff') format('woff'),
+         url('../fuentes/tr heavy/01_27-webfont.ttf') format('truetype'),
+         url('../fuentes/tr heavy/01_27-webfont.svg#trheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nivoSlider {
+	position:relative;
+	height:450px !important;
+	
+	
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:730px;
+	top:-40px;
+	color:#fff;
+	opacity:1 !important; /* Overridden by captionOpacity setting */
+	z-index:10;
+	font-size:18px !important;
+	font-family: 'trheavy';
+}
+
+.nivo-caption p {
+}
+.nivo-caption a {
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: -5%;
+  color: #fff;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border: 0;
+  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.9);
+	background: #ddedf9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ddedf9 0%, #96c8ed 35%, #96c8ed 35%, #009ada 69%, #009ada 69%, #0066ac 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ddedf9), color-stop(35%,#96c8ed), color-stop(35%,#96c8ed), color-stop(69%,#009ada), color-stop(69%,#009ada), color-stop(100%,#0066ac)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ddedf9 0%,#96c8ed 35%,#96c8ed 35%,#009ada 69%,#009ada 69%,#0066ac 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ddedf9 0%,#96c8ed 35%,#96c8ed 35%,#009ada 69%,#009ada 69%,#0066ac 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ddedf9 0%,#96c8ed 35%,#96c8ed 35%,#009ada 69%,#009ada 69%,#0066ac 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ddedf9 0%,#96c8ed 35%,#96c8ed 35%,#009ada 69%,#009ada 69%,#0066ac 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddedf9', endColorstr='#0066ac',GradientType=0 ); /* IE6-9 */
+}
+.nivo-caption a:hover {
+	background: rgb(135,172,217); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(135,172,217,1) 0%, rgba(0,101,171,1) 49%, rgba(0,51,117,1) 50%, rgba(0,63,142,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,172,217,1)), color-stop(49%,rgba(0,101,171,1)), color-stop(50%,rgba(0,51,117,1)), color-stop(100%,rgba(0,63,142,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(135,172,217,1) 0%,rgba(0,101,171,1) 49%,rgba(0,51,117,1) 50%,rgba(0,63,142,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(135,172,217,1) 0%,rgba(0,101,171,1) 49%,rgba(0,51,117,1) 50%,rgba(0,63,142,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(135,172,217,1) 0%,rgba(0,101,171,1) 49%,rgba(0,51,117,1) 50%,rgba(0,63,142,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(135,172,217,1) 0%,rgba(0,101,171,1) 49%,rgba(0,51,117,1) 50%,rgba(0,63,142,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87acd9', endColorstr='#003f8e',GradientType=0 ); /* IE6-9 */
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:30;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+	background:#ccc url(../images/arrow-right.png) 1px 1px no-repeat;
+}
+.nivo-nextNav {
+	right:0px;
+	background:#ccc;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:100;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}

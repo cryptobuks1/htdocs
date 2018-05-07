@@ -1,0 +1,1 @@
+[08-Feb-2016 11:50:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/hospitalduran/public_html/wp-content/themes/twentyfourteen/search.php on line 353

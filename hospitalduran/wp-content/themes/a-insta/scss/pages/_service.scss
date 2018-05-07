@@ -1,0 +1,22 @@
+.service {
+	margin-bottom: 48px;
+
+	&:nth-child(3n+1) {
+		clear: left;
+		.home & {
+			clear: none;
+		}
+	}
+
+	.entry-title {
+		font-size: 18px;
+		margin: 0 0 14px;
+		a {
+			color: #323232;
+			&:hover {
+				color: $accent-1;
+			}
+		}
+	}
+
+}

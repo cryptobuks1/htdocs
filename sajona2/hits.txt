@@ -1,0 +1,48 @@
+FILE-HITS::'/home/sajona/public_html/selshipmulti.php'::2017-03-24 02:47:28::PHP.array_map obfuscated::S::10
+FILE-RESULT::'/home/sajona/public_html/selshipmulti.php'::2017-03-24 02:47:28::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/changecolor.php'::2017-03-24 02:45:26::PHP.array_map obfuscated::S::10
+FILE-RESULT::'/home/sajona/public_html/changecolor.php'::2017-03-24 02:45:26::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::/home/sajona/public_html/wp-ss.zip::SHA1_BL::370034d230f7e7d43f662e19a058e179280e88a0
+FILE-RESULT::/home/sajona/public_html/wp-ss.zip::SHA1_BL::370034d230f7e7d43f662e19a058e179280e88a0
+FILE-HITS::'/home/sajona/public_html/cms_content.php'::2017-03-24 03:03:44::PHP.array_map obfuscated::S::10
+FILE-RESULT::'/home/sajona/public_html/cms_content.php'::2017-03-24 03:03:44::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/resource.php'::2017-03-24 02:53:28::PHP.array_map obfuscated::S::10
+FILE-RESULT::'/home/sajona/public_html/resource.php'::2017-03-24 02:53:28::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/page_template.php'::2017-03-24 03:10:35::PHP.array_map obfuscated::S::10
+FILE-RESULT::'/home/sajona/public_html/page_template.php'::2017-03-24 03:10:35::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/cee55c94a1.php.suspected'::2017-03-24 16:08:20::PHP.Archive.Uploader::S::10
+FILE-RESULT::'/home/sajona/public_html/cee55c94a1.php.suspected'::2017-03-24 16:08:20::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/3423/3423ebc14e.php.suspected'::2017-03-24 11:36:22::PHP.Archive.Uploader::S::10
+FILE-RESULT::'/home/sajona/public_html/3423/3423ebc14e.php.suspected'::2017-03-24 11:36:22::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/3423/alopr/old.php'::2017-03-24 06:19:55::PHP.obfuscated.RCE::S::10::PHP.Extract POST::S::10
+FILE-RESULT::'/home/sajona/public_html/3423/alopr/old.php'::2017-03-24 06:19:55::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/3423/alopr/glotir.txt'::2017-03-24 05:52:29::PHP.story SEO Droper::S::10
+FILE-RESULT::'/home/sajona/public_html/3423/alopr/glotir.txt'::2017-03-24 05:52:29::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/3423/alopr/new.php'::2017-03-24 06:23:52::PHP.obfuscated.RCE::S::10::PHP.Extract POST::S::10
+FILE-RESULT::'/home/sajona/public_html/3423/alopr/new.php'::2017-03-24 06:23:52::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-admin/css/favicon_0623d6.ico'::2017-03-24 07:17:49::Encoded var=base64_decode::S::10::Obfuscated-Base64::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-admin/css/favicon_0623d6.ico'::2017-03-24 07:17:49::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/Webdirect.php'::2017-03-24 05:52:18::PHP.Malicious Redirect.6::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/Webdirect.php'::2017-03-24 05:52:18::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/api.favorite.php'::2017-03-24 06:36:09::PHP.obfuscated.RCE::S::10::PHP.Extract POST::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/api.favorite.php'::2017-03-24 06:36:09::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/config.whatever.php'::2017-03-24 06:27:03::PHP.obfuscated.RCE::S::10::PHP.Extract POST::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/config.whatever.php'::2017-03-24 06:27:03::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/congressApi.php'::2017-03-24 06:32:41::PHP.obfuscated.RCE::S::10::PHP.Extract POST::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/tinymce-advanced/congressApi.php'::2017-03-24 06:32:41::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-content/themes/twentyfourteen/css/start.php'::2017-03-24 06:21:11::Hex Globals::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/themes/twentyfourteen/css/start.php'::2017-03-24 06:21:11::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-content/themes/SajonaFinal/woocommerce/ini81.php'::2017-03-24 07:51:29::Encoded var=base64_decode::S::10::Obfuscated-Base64::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/themes/SajonaFinal/woocommerce/ini81.php'::2017-03-24 07:51:29::MALICIOUS_PROB_VERYHIGH_20
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/google-analytics-dashboard-for-wp/tools/user55.php'::2017-03-24 06:17:32::Hex Globals::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/google-analytics-dashboard-for-wp/tools/user55.php'::2017-03-24 06:17:32::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/revslider/inc_php/utf16.php'::2017-03-24 06:21:57::Hex Globals::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/revslider/inc_php/utf16.php'::2017-03-24 06:21:57::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/revslider/rs-plugin/blog59.php'::2017-03-24 06:17:47::Hex Globals::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/revslider/rs-plugin/blog59.php'::2017-03-24 06:17:47::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/en/wp-content/uploads/2012/session15.php'::2017-03-24 06:18:22::Hex Globals::S::10
+FILE-RESULT::'/home/sajona/public_html/en/wp-content/uploads/2012/session15.php'::2017-03-24 06:18:22::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-admin/css/colors/blue/alias.php'::2017-03-24 06:17:44::Malicious PHP::S::10
+FILE-RESULT::'/home/sajona/public_html/wp-admin/css/colors/blue/alias.php'::2017-03-24 06:17:44::MALICIOUS_PROB_VERYHIGH_10
+FILE-HITS::'/home/sajona/public_html/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/redsistem.php.suspected'::2017-03-24 11:36:20::Simple Mass Mailer::S::5
+FILE-RESULT::'/home/sajona/public_html/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/redsistem.php.suspected'::2017-03-24 11:36:20::MALICIOUS_PROB_MEDIUM_5

@@ -1,0 +1,59 @@
+.site {
+	background-color: #fff;
+}
+
+.layout-boxed {
+
+	.site {
+		box-shadow: 0 0 10px rgba(0,0,0,.05);
+		max-width: 1000px;
+		margin: 40px auto 0;
+	}
+
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+		width: 100%;
+	}
+
+}
+
+.layout-2c-r {
+
+	.content-area {
+		float: right;
+	}
+
+	.widget-area {
+		float: left;
+	}
+
+}
+
+.layout-1c {
+
+	.content-area {
+		width: 100%;
+	}
+
+}
+
+.page-template-block {
+	.content-area {
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.widget-area.col-lg-4 {
+		padding-left: 6%;
+	}
+	.layout-2c-r {
+		.widget-area.col-lg-4 {
+			padding-left: 0;
+			padding-right: 6%;
+		}
+	}
+}

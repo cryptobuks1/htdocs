@@ -1,0 +1,224 @@
+.pix_diapo {
+	background: rgb(255,255,255); /* Old browsers */
+   	height: 300px;
+	margin:10px auto 50px auto;
+	position: relative;
+	width: 80%;
+}
+
+.pix_diapo > div {
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#pix_prev, #pix_next {
+	cursor: pointer;
+	display: block;
+	height: 29px;
+	margin-top: -20px;
+	position: absolute;
+	top: 50%;
+	width: 18px;
+	z-index: 1001;
+	opacity: 1 !important
+
+}
+#pix_prev {
+	background: url(images/diapo/prev.png) no-repeat;
+	left: 5px;
+}
+#pix_next {
+	background: url(images/diapo/next.png) no-repeat;
+	left: auto!important;
+	right: 5px !important;
+}
+#pix_pag {
+	margin: 0px auto 0 auto;
+	position: absolute;
+	width: 81%;
+	z-index: 1005;
+	margin-left:-40%;
+	left:50%;
+	top: 80px;
+}
+#pix_commands {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 26px;
+	margin: 15px 0 0 13px;
+	position: relative;
+	width: 24px;
+}
+#pix_play {
+	background: url(images/diapo/play.png) center no-repeat;
+	height: 24px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 24px;
+	display: none !important;
+}
+#pix_stop {
+	background: url(images/diapo/pause.png) center no-repeat;
+	height: 24px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 24px;
+	display: none !important;
+}
+#pix_pag_ul {
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+#pix_pag_ul > li {
+	cursor: pointer;
+	display: block;
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0 14.65% 0 0;
+	padding: 25px 0px 0 0;
+	text-align: center;
+	text-indent: -9999px;
+	width: 16px;
+}
+#pix_pag_ul li:last-child {
+	margin:0;
+}
+#pix_pag_ul > li > span {
+	background: #9B1C1B;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: block;
+	height: 20px;
+	width: 20px;
+     
+}
+#pix_pag_ul > li:hover > span > span {
+	background: rgb(237,28,36); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(237,28,36,1) 0%, rgba(186,20,27,1) 65%, rgba(153,8,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(237,28,36,1)), color-stop(65%,rgba(186,20,27,1)), color-stop(100%,rgba(153,8,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(237,28,36,1) 0%,rgba(186,20,27,1) 65%,rgba(153,8,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(237,28,36,1) 0%,rgba(186,20,27,1) 65%,rgba(153,8,14,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(237,28,36,1) 0%,rgba(186,20,27,1) 65%,rgba(153,8,14,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(237,28,36,1) 0%,rgba(186,20,27,1) 65%,rgba(153,8,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1c24', endColorstr='#99080e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#pix_pag_ul > li > span > span {
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	display: block;
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin:-3px;
+}
+#pix_pag_ul > li.diapocurrent > span > span {
+	background: #6F0F15;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	background: #fbaf41;
+}
+#pix_pag_ul > li > .pix_thumb {
+	border: 4px solid #fff;
+	border: 4px solid #fff;
+	border: 4px solid #fff\9;
+	border-radius:33px;
+	-webkit-border-radius:33px;
+	-moz-border-radius:33px;
+	-o-border-radius:33px;
+	-moz-box-shadow: 0 1px 8px #000;
+	-webkit-box-shadow: 0 1px 8px #000;
+	box-shadow: 0 1px 8px #000;
+	height: 58px;
+	width:58px;
+ 	left: -20px;
+	position: absolute;
+	top: -35px;
+
+}
+#pix_pag_ul > li > .thumb_arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid  #e6e6e6;
+	top: 31px;
+	left: 12px;
+	position: absolute;
+}
+.pix_relativize {
+	overflow: hidden;
+	position: relative;
+}
+.imgFake {
+	cursor: pointer;
+}
+.elemHover {
+	position: absolute;
+        background: #fff;
+}
+.caption {
+	background: rgba(0, 0, 0, 0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)\9;
+	bottom: 20px;
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	padding: 20px;
+	width: 900px;
+}
+.ui-loader {
+	display: none;
+}
+@media only screen and (max-width: 1024px){
+	#pix_pag {
+	    top:75px;
+	
+	}
+	#pix_pag_ul > li {
+		width:16%;
+		margin:0;
+    	
+    }	
+    #pix_pag_ul li:last-child {
+    	width:4%;
+
+    }
+
+}
+@media only screen and (max-width: 768px){
+	.pix_diapo{
+		height:310px;
+		margin:10px auto 0 auto;
+	}
+}
+@media only screen and (max-width: 640px){
+	.pix_diapo{
+		height:320px;
+		margin:10px auto 0 auto;
+	}
+}
+@media only screen and (max-width: 480px){
+	.pix_diapo{
+		height:460px;		
+	}
+}
+@media only screen and (max-width: 375px){
+	.pix_diapo{
+		height:500px;		
+	}
+}
+@media only screen and (max-width: 320px){
+	.pix_diapo{
+		height:520px;		
+	}
+}

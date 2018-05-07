@@ -1,0 +1,179 @@
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	background: #ffffff;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.sf-menu > li {
+	float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu ul ul {
+	top: 0;
+	left: 100%;
+}
+.sf-menu ul {
+	background: #ffffff;
+	border-radius: 3px;
+	margin-top: 0;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.03);
+}
+.sf-menu ul ul {
+	left: 170px;
+	margin-top: 0;
+}
+.sf-menu a {
+	zoom: 1;
+}
+.sf-menu ul a {
+	font-size: 1em;
+}
+.sf-menu li {
+	z-index: 100;
+}
+.sf-menu ul li {
+	width: 170px;
+}
+.sf-arrows .sf-with-ul {
+	padding-right: 25px !important;
+}
+.sf-arrows .sf-with-ul:after {
+	content: "\f107";
+	position: absolute;
+	top: 4px;
+	right: 20px;
+	height: 0;
+	width: 0;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: rgba(255,255,255,0.5);
+}
+#secondary-nav .sf-arrows .sf-with-ul:after {
+	top: 14px;
+	color: rgba(77,77,77,0.5);
+}
+#secondary-nav .sf-arrows .sf-with-ul:hover:after {
+	color: rgba(239, 108, 95, 0.5);
+}
+#secondary-nav .sf-arrows ul li .sf-with-ul:after {
+	content: "\f105";
+	position: absolute;
+	top: 20%;
+	right: 0;
+	height: 0;
+	width: 0;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: rgba(77,77,77,0.5);
+}
+#primary-nav .sf-menu li li {
+	box-shadow: none;
+	width: 165px;
+}
+#primary-nav .sf-menu ul ul {
+	left: 150px;
+	top: -5px;
+}
+#primary-nav .sf-menu li a {
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#primary-nav .sf-menu li li a {
+	border-top: none;
+	font-weight: bold;
+}
+#primary-nav .sf-menu li .menu-desc {
+	color: #9f9f9f;
+	display: block;
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: none;
+}
+#primary-nav .sf-menu li ul {
+	padding: 10px 15px;
+}
+#secondary-nav {
+	z-index: 50;
+	position: relative;
+	margin-left: 165px;
+}
+#secondary-nav .sf-menu li > a {
+	color: #000;
+	display: block;
+	font-size: 13px;	
+	font-weight: 300;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+#secondary-nav .sf-menu li ul {
+	background: #ffffff;
+	padding: 10px 0;
+}
+#secondary-nav .sf-menu ul li {
+	width: 180px;
+	padding: 0 15px;
+}
+#secondary-nav .sf-menu ul ul {
+	position: absolute;
+	background: #ffffff;
+	top: -10px;
+	left: 209px;
+}
+#secondary-nav .sf-arrows ul li .sf-with-ul {
+	padding-right: 0 !important;
+}
+#secondary-nav .sf-menu li a:hover,
+#secondary-nav .sf-menu li.current_item a {
+	color: #ef6c5f;
+}
+#secondary-nav .sf-menu li li a,
+#primary-nav .sf-menu li li a {
+	line-height: 1;
+	color: #4d4d4d;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 0;
+	text-transform: none;
+}
+#secondary-nav .sf-menu li li a:hover,
+#primary-nav .sf-menu li li a:hover {
+	background: #ffffff;
+	color: #ef6c5f;
+}
+#secondary-nav .sf-menu li li:last-child a,
+#primary-nav .sf-menu li li:last-child a {
+	border-bottom: none !important;
+}

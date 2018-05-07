@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="">
+<head>
+
+
+		
+
+	
+  <title>4K Video Downloader (Mac) - Download - COMPUTER BILD</title>
+  <meta charset="windows-1252">
+
+	
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	
+  <link rel="shortcut icon" href="">
+
+	
+  <meta http-equiv="language" content="DE">
+<!-- META ROBOTS; ETC -->
+	
+		
+	
+  <meta name="description" content="4K Video Downloader (Mac)  kostenlos in deutscher Version downloaden! Weitere virengepr&uuml;fte Software aus der Kategorie Internet finden Sie bei !">
+
+	
+  <meta name="robots" content="NOODP">
+
+	
+  <meta name="googlebot" content="NOODP">
+
+		
+  <link rel="canonical" href="">
+
+		
+  <link rel="publisher" href="">
+<!-- CSS -->
+		
+		
+  <link href="%20rel=" stylesheet="" type="text/css">
+
+  <link href="%20rel=" stylesheet="" type="text/css">
+<!--[if lt IE 9]>
+			
+		<![endif]-->
+
+		
+		
+		
+  <link href="%20rel=" alternate="" type="application/rss+xml" title="COMPUTER BILD">
+<!-- JS -->
+		
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="search" title="COMPUTER BILD-Suche" type="application/opensearchdescription+xml" href="">
+
+	
+
+
+
+
+
+		
+	
+
+
+  <meta itemprop="url" content="">
+  <meta itemprop="position" content="1">
+  <meta itemprop="url" content="">
+  <meta itemprop="position" content="2">
+  <meta itemprop="url" content="/download/Internet/">
+  <meta itemprop="position" content="3">
+  <meta itemprop="url" content="/download/Internet/youtube-tools/">
+  <meta itemprop="position" content="4">
+  <meta itemprop="name" content="COMPUTER BILD">
+  <meta itemprop="url" content="">
+  <meta itemprop="url" content="">
+  <meta itemprop="height" content="80">
+  <meta itemprop="width" content="175">
+  <meta itemprop="bestRating" content="5">
+  <meta itemprop="worstRating" content="1">
+  <meta itemprop="screenshot" content="">
+  <meta itemprop="interactionType" content="">
+  <meta itemprop="userInteractionCount" content="24571">
+</head>
+
+
+	<body>
+
+				<password-migration remove="false" redirect="true"></password-migration>
+		
+<div id="fb-root"></div>
+
+		<!-- IVW -->
+		
+<div id="overDiv" style="position: absolute; visibility: hidden;"></div>
+
+		
+<div id="superfullsizebanner">
+<div id="sas_3648"></div>
+
+	
+</div>
+<div id="skyscraper">
+<div id="skyscrapercontent">
+<div id="sas_3650"></div>
+
+	
+<br>
+</div>
+</div>
+<div id="page_margins">
+<div id="page">
+<div id="billboard"><!--[no:ad]--></div>
+
+				
+<div id="a21a694db9778fdcbf52f19fd92352754"></div>
+
+
+
+
+				
+<div id="main" class="wide clearfix">
+					
+<div style="display: none;" itemprop="publisher" itemscope="" itemtype="">
+				
+				
+	 			
+<div itemprop="logo" itemscope="" itemtype="">
+      				
+      				
+      				
+				</div>
+
+			</div>
+
+
+
+
+
+<div id="download" lazyimgcontainer="" xmlns="">
+	<!-- google_ad_section_start -->
+	
+<div id="content_left">
+		
+<div itemscope="" itemtype="">
+			
+<div class="articleintro clearfix">
+				
+<h1 itemprop="name" class="title">{keyword}</h1>
+<br>
+</div>
+<div class="clearfix">
+<div class="downloaddescription">
+<div itemprop="description">{manytext_bing}					</div>
+
+				</div>
+
+			</div>
+
+				
+
+	
+<div class="screenshotteaser" ng-controller="ScreenshotTeaserController as ScreenshotTeaserCtrl">
+		
+<div class="content">
+			<cobi-google-analytics ga-type="event" ga-ng-events="" ga-data="downloads,Galerieteaser,Pfeil_Links">
+			</cobi-google-analytics>
+			<cobi-google-analytics ga-type="event" ga-ng-events="" ga-data="downloads,Galerieteaser,Pfeil_Rechts">
+			</cobi-google-analytics>
+			
+<div class="contentwrapper" slide-element="" data-element-width="312" data-visible-elements="3" data-event-prev="" data-event-next="" data-with-margin="true">
+				
+<div ng-repeat="image in " class="box" data-slide-box="">
+					<a class="cb_screenshot_image" ng-href="{{}}" colorboxable="">
+						<img lazy-load-image="" data-lazy-load-active="" data-lazy-load-src="{{}}" alt="{{}}" title="{{}}" height="{{}}" width="{{}}">
+					</a>
+				</div>
+
+				
+<div ng-show=" &gt; 3" class="prev ng-hide" ng-click="()"></div>
+
+				
+<div ng-show=" &gt; 3" class="next ng-hide" ng-click="()"></div>
+
+			</div>
+
+		</div>
+
+		<colorbox box-for=".cb_screenshot_image" open="false" options="{
+				reposition: false,
+				rel:'screenshotteaser',
+				current: '',
+				close: 'Fenster schlie&szlig;en',
+				width: '1024px',
+				height: '576px',
+				opacity:0.5,
+				transition: 'none',
+				loop: false}">
+		</colorbox>
+
+
+
+
+
+
+		
+	</div>
+
+
+<div class="adsensebox" id="google_adsense_fullwidth_top_download">
+</div>
+<br>
+</div>
+</div>
+</div>
+<form style="display: none;">
+			<input id="cb-redirect-url" login-url="" name="redirect" value="" type="hidden">
+		</form>
+	
+<div id="jsFunc" style="display: none;">
+		<!--Visual Revenue Reader Response Tracking Script (v6) -->
+
+<!-- End of VR RR Tracking Script - All rights reserved -->			
+<div id="inlineJs">
+							</div>
+
+			<!-- Google Tag Manager -->
+<noscript><iframe src="//
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<!-- End Google Tag Manager -->
+<div class="templates" data-src="login">
+	<section data-type="loggedOut">
+		</section>
+<ul class="menulogin">
+
+				<li>Login</li>
+
+			
+</ul>
+	
+	<section data-type="loggedIn">
+		</section>
+<form action="" method="post" id="login_form">
+				<input name="action" value="logout" type="hidden">
+				<input name="userAction" value="logout" type="hidden">
+			</form>
+
+			
+<ul class="menulogin switch">
+
+				<li class="username">
+					
+    <p>##loginname##</p>
+
+					<span class="pictureblock">
+					</span>
+					
+    <ul>
+
+						<li>
+							Profil bearbeiten
+						</li>
+
+						<li class="heading">
+							Abonnierte Newsletter
+						</li>
+
+						<li class="heading">
+							Abmelden
+						</li>
+
+
+					
+    </ul>
+
+				</li>
+
+			
+</ul>
+
+	
+</div>
+
+
+
+		
+		
+<div id="ac_search" class="suggested"></div>
+
+		
+
+			</div>
+
+
+
+
+
+
+<div id="cookienotifier" class="clearfix" style="display: none;">
+	<b>Hinweis:</b> Durch die Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.
+	
+<div class="button">
+		<span id="cookienotifier-accept">OK</span>
+		Mehr Infos	</div>
+
+</div>
+
+
+
+			</div>
+
+		</div>
+
+		
+<div style="position: absolute; left: -10px; top: -10px; visibility: hidden;">
+			
+		
+<noscript>
+			<img id="rholive-dl" src=" width="1" height="1" alt="" />
+		</noscript>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</body>
+</html>

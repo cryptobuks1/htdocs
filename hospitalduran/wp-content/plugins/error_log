@@ -1,0 +1,2 @@
+[11-Oct-2015 04:22:06 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/hospitalduran/public_html/wp-content/plugins/hello.php on line 60
+[23-Oct-2015 08:59:57 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/hospitalduran/public_html/wp-content/plugins/hello.php on line 60

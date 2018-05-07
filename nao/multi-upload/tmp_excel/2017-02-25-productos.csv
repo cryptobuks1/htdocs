@@ -1,0 +1,14 @@
+nombre;referencia;unidad;descrip;imagen;valor;iva;valorneto;idCat;idArea;;
+cable;df5;M;sta anita;cable.png;3500;665;4165;Cables;1;;
+tv;g5;;calle prueba;958745122;450000;85500;535500;Cables;1;;
+cable;df5;M;sta anita;cable.png;3000;570;3570;Monitores;1;;
+tv;g5;;calle prueba;958745122;450000;85500;535500;Cables;2;;
+camara2;d12;;lince;cctv(5).jpg;45253;8598,07;53851,07;Monitores;2;;
+camara1;a1255;;la marina;cam.png;300000;57000;357000;Cámaras;3;;
+tubo electrico;456;M;sda;dsfa;4000;760;4760;Cámaras;3;;
+tubo el;785;M;sda;dsfa;7500;1425;8925;Tubos;3;;
+tubo electrico;456;M;sda;dsfa;5600;1064;6664;Cámaras;4;;
+camara2;d12;;lince;cctv(5).jpg;520000;98800;618800;Cámaras;4;;
+camara1;a1255;;la marina;cam.png;300255;57048,45;357303,45;Tubos;4;;
+Certificación ISO 9001;12358;;Certif;;6000000;1140000;7140000;Tubos;4;;
+Cable de red;968;M;jfasldjaflk;dfas;;;500.00;Certificaciones;5;;

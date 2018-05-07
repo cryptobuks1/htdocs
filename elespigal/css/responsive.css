@@ -1,0 +1,1648 @@
+/*@media screen and (min-width:240px) and (max-width: 320px) {
+	.a320{
+		display:block !important;
+	}
+}
+@media  screen and (min-width:321px) and (max-width: 375px){
+	.a375{
+		display:block !important;
+	}
+}
+@media screen and (min-width:376px) and (max-width: 480px) {
+	.a480{
+		display:block !important;
+	}
+}*/
+@media only screen and (min-width: 1024px){	
+	
+}
+@media only screen and (max-width: 1280px){
+	footer{
+		height:150px;
+		top:140px;
+	}
+	.deliv i{
+		margin-left:0.8rem;
+	}
+	.cintadebfooter{
+		height:90px;
+	}
+	.datosMat{
+		margin-top:56px;
+	}
+	
+	.det-delivery .selecdeliv article label{
+		font-size: 1rem;
+	}
+	.diareg .footer-orden .botton{
+		margin:0 8%;
+	}
+	#cancelCart {
+	    margin: 0em 0.5em 0.16em 13rem;
+	}
+	.diareg .footer-ordenc .boton{
+		margin:0 8%;
+	}
+	.tituloprod{
+		font-size:1.4rem;
+	}
+	.tituloprod p{
+		min-height: 112px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	html, body{
+		font-size: 10px;
+	
+	}
+	.boton{
+		font-size: 1.6rem;
+	}
+	.sub-emp{
+		width:72%;
+	}
+	.cont-btnpedido {  
+	    margin-left: -25rem;
+	    left: 50%;
+	    width: 50rem;
+	}
+	.btnpedido {
+	    width: 60%;
+	}
+	.btnpedido .btnpedidohere {
+		width:100%;
+	}
+	.tuto {	    
+	    width: 365px;	    
+	    margin-left: -205px;
+	}
+	.menuprincipal ul li .subMenu li a {
+		font-size: 1.5rem;
+	}
+	.menuprincipal{
+		height:100px;
+	}
+	.testing{
+		margin-top:20px;
+	}
+	.menuprincipal ul li a{
+		padding:20px 0;
+	}
+	.section-home {
+	    top: 166px;
+	    background:#D4D3B5;
+	}
+	footer{
+		height:150px;
+		top:120px;
+	}
+	.horario{
+		width:25%;
+	}
+	
+	.horario span strong {
+		display:block;
+		width:20%;
+		float:left;
+	}
+	.datosMat {
+		font-size: 1.5rem;
+		margin-top:76px;
+	}
+	.linklupa span {
+	    margin: 5px 0 15px 55%;
+	    font-size: 1.2rem;
+	}
+	.cajon_redes_s {
+		padding: 15px 5px 17px 5px;
+	}
+	/*nosotros*/
+	.cont-historia .ltiempo {
+		width:80%;
+	}
+	.tiempo li {
+	    margin: 0;
+	    width:16%;
+	    margin-bottom: 10px;
+	}
+	.tiempo li:last-child {
+	    width:4%;
+	}
+	.tiempo li span:after {
+		left:3px;
+	}
+	.titulo-h {
+	    margin-left: 150px;
+	}
+	/*productos*/
+	.titulo-prod h1 {
+	    padding: 15px 10px;
+
+	}
+	.tituloprod figure {
+	    height: 110px;
+	}
+	.tituloprod p {
+	    min-height: 90px;
+	}
+	.header-orden p{
+		font-size: 1.3rem;
+		min-height: 40px;
+		
+	}
+
+	.dialog .item-info h4{
+		font-size: 1.5rem;
+	}
+	.dialog .item-group label{
+		font-size: 1.3rem;
+	}
+	.dialog .item-group label input{
+		margin-top: 6px;
+	}
+	.dialog .cant-titulo{
+		font-size: 1.3rem;
+	}
+	.dialog .cant-orden{
+		top:.5rem;
+	}
+	.header-orden p{
+		font-size: 1.5rem !important;
+	}
+	.carrito{
+		top:165px;
+	}
+	#cancelCart{
+		margin:0 0.5em .16em 12rem;
+	}
+	#scrollContent ul .dropdown{
+		height:2.8rem;
+	}
+	.detalleItem{
+		right:250px;
+	}
+	.deliv, .recoger{
+		font-size:1.3rem;
+	}
+	.deliv{
+		margin-left:0;
+	}
+	.deliv input {
+	    float: left;
+	    margin: 3px 5px 0 0;
+	}
+	#total{
+		font-size: 1.2rem;
+	}
+	.deliv .tideliv {
+		font-size: 1.2rem
+	}
+	.deliv i {
+	    margin-left: 9rem;
+	}
+	.diacedula .textres{
+		font-size: 1.8rem;
+	}
+
+	.diacedula .campo-cedula{
+		width:80%;
+		font-size: 1.5rem
+	}
+	.diacedula input{
+		width:95%;
+	}
+	.diacedula .verificarcedula{
+		width:50%;
+	}
+	.titulo-registrado h4{
+		font-size: 1.8rem;
+	}
+	.diareg .campouno label, .diareg .campodoble label{
+		font-size: 1.5rem;
+	}
+	.formres{
+		width:90%;
+	}
+	.diareg .footer-orden{
+		width:100%;
+	}
+	.diareg .footer-ordenc{
+		width:100%;
+	}
+	.confirmacion .body-conf .sugpedido .boton {
+		font-size: 1.8rem
+	}
+	.eligeloque img{
+		width:90%;
+	}
+	.quienesSomos h2, .cont-historia h2{
+		font-size: 3rem;
+		line-height: 30px;
+	}
+	.cont-formularios{
+		top:170px;
+	}
+	.titulo-sug, .titulo-cont{
+		font-size:3rem;
+		line-height: 43px;
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	.titulo-prod {
+		height:20px;
+	}
+	.titulo-prod h1{
+		display:none;
+	}
+	.confcedula{
+		width:65% !important;
+		margin:0;
+	}
+	.renglonadi{
+		top: 100px;
+	    position: relative;
+	    height: 80%;
+	    overflow: auto;
+	}
+	.confcedula label {
+		font-size: 2rem !important;
+	}
+	.campo-cedula{
+		width:100% !important;
+	}
+	.campo-cedula label{
+		font-size:2rem !important;
+		text-align: center !important;
+		width:95% !important;
+	}
+	.campo-cedula input{
+		width:65% !important;
+		margin-left:15% !important;
+	}
+	.btnver{
+		width:70% !important;
+	}
+	.editar, .guardar{
+		font-size: 2rem;
+	}
+	.productos{
+		overflow: auto;
+	    height: auto;
+	    margin-top: 200px;
+	    width: 100%;
+	}
+ 
+	input[type="radio"] {
+	    display: inline-block;
+	    width: 19px;
+	    height: 19px;	   	   
+	}
+	 
+	
+	.contcart{
+		position: relative;
+	    overflow: hidden;
+	    height: auto;
+	    width: 100%;
+	    
+	}
+	
+	.menuprincipaldeb{
+		height:5px;
+	}
+	html, body{
+		font-size: 8px;
+	}
+	footer{
+		overflow:hidden;
+		height:230px;
+		margin-bottom: 0;
+		top:0px;
+	}
+	header{
+		height:auto;
+		
+	}
+
+	.menuprincipal{
+		height:35px;
+	}
+	.menu{
+		display:none;
+		padding:5px 0;
+	}
+	.menumovil{
+		background: #a90329 url("../imagenes/fondomenu-01.jpg");
+	}
+	.menuprincipal ul{
+		width:100%;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.menuprincipal ul li{
+		width:100%;
+	}
+	.menuprincipal ul li a{
+		font-size: 4rem;
+	}
+	.menuprincipal .menutop{
+		width:87%;
+		float:right;
+		margin-top: 7px;
+	}
+	.menuhome a{
+		margin-left:0 !important;
+	}
+	.menubar a{
+		margin-left:75% !important;
+	}
+	.menutop aside a{
+		margin-left:5%;
+		font-size: 3rem;
+	}
+	.menubar{
+		margin-left:30%;
+
+	}	
+	.menumovil li{
+		width:100%;
+
+	}
+	.menuprincipal ul li div {
+	    width: 10%;
+	    float: left;
+	    margin-left: 35%;
+	}
+	.menuprincipal ul li a{
+		text-align: left;
+		padding:15px 0;
+		line-height: 25px;
+	}
+	.menuprincipal .menumovil li:first-child{
+		width:100%;
+	}
+	.cantCart{
+		font-size: 1.1rem;
+	}
+	.menutop{
+		display: block;
+	}
+	.sub-emp {
+		width: 100%;
+		margin:5px 0;
+	}
+	.sub-emp a {
+		font-size: 3rem;
+	}
+	.sub-emp a aside{
+		display:none;
+	}
+	.titulopag {
+		width:95%;
+		margin:0 3% 0 0;
+		font-size: 1rem;
+		text-align: right;
+	}
+	
+	.testing {
+	    width: 10%;
+	    margin-left: 2%;
+	    margin-top: 0;
+	}
+	
+	.home {
+	    margin: 2px 5% 0 22% !important;
+	    display:none;
+	}
+	.separador{
+		display:none;
+	}
+	.icon-work, .icon-sug{
+		display:none;
+	}
+	
+	.quienesSomos h2 {
+	    font-size: 4rem;
+	    line-height: 27px;
+	}
+	.cont-historia h2 {
+	    font-size: 4rem;
+	    line-height: 27px;
+	}
+	.quienesSomos p {
+		font-size: 2rem;
+	}
+	.linkdomic{
+		display:none;
+	}
+	.sldesktop{
+		display:none;
+	}
+	.pix_diapomovil{
+		display:block;
+	}
+	.slmovil{
+		
+	}
+	.slmovil img{
+		width:100%;
+	}
+	.section-home{
+		top:0;
+	}
+	.flecha2, .flecha1{
+		display:none;
+	}
+	.cont-btnpedido{
+		width:50%;
+		margin-left: -25%;
+		margin-top:50px;
+		display:none;
+	}
+	.btnpedido{
+		width:100%;
+	}
+	.cont-btnpedido:hover + .tuto {
+	    display: none;
+	}
+	.pedidomovil, .localmovil{
+		display:block;
+	}
+	.horario{
+		width:100%;
+		border-top:1px solid #FF787A;
+		border-bottom:1px solid #FF787A;
+		margin-top:10px;
+	}
+	.horario h2 {
+		font-size: 2.4rem	
+
+	}
+	.horario span {
+		float:left;
+		width:100%;
+		font-size:2rem; 
+	}
+	.cajon_redes_s {
+		position:relative;
+	}
+	.datosMat {
+		width: 100%;
+		margin-top:10px;
+		margin-left:-50%;
+		position: relative;
+		font-size: 2rem
+	}
+	.cintadebfooter p {
+		float:left;
+		width: 50%;
+		text-align: left;
+		font-size:2rem;
+	}
+	.linklupa{
+		width:50%;
+		
+		
+	}
+	.linklupa span {
+	    margin: 5px 0 15px 35%;
+	    font-size: 1.5rem;
+	}
+	.cintadebfooter p:last-child {
+	    margin-right: 0%;
+	}
+	
+	/*nosotros*/
+	.cont-nosotros{
+		top:0;
+	}
+	.parrafo{
+		width:36% !important;
+		left:57% !important;
+		top:65px !important;
+		font-size: 1.5rem !important;
+	}
+	.titulo-h{
+		width:33% !important;
+		font-size: 1.5rem ;
+
+	}
+	.lineatiempo img{
+		width:50% !important;
+	}
+	.tiempo li {
+		font-size: 2.3rem;
+	}
+	/*menu*/
+	.titulocatmovil{
+		display:block;
+	}
+	.section-menu{
+		top:0;
+	}
+	.menuall a{
+		width:70%;
+	}
+
+	.titulo-categoria{
+		display:none;
+	}
+	.titulocat{
+		display:none;
+		width:70%;
+		-moz-border-image: url(../imagenes/borde-v-01.png) 0 7 0 7 repeat;
+	    -webkit-border-image: url(../imagenes/borde-v-01.png) 0 7 0 7 repeat;
+	    -o-border-image: url(../imagenes/borde-v-01.png) 0 7 0 7 repeat;
+	    border-image: url(../imagenes/borde-v-01.png) 0 7 0 7 fill repeat;
+	    border-left: 7px solid #fff;
+	}
+	.titulocat:last-child{
+	    width:70%;
+	    margin-left: 0 !important;
+	}
+	
+	.hortuto img{
+		width:100%;
+	}
+	.cortina-cat button{
+		font-size:3rem;
+	}
+	.titulocat h3{
+		font-size:4rem;
+	}
+	.borde-bottom{
+		width:105%;
+		margin-left:-2.5%;
+	}
+	.titulocat:nth-child(1n+1) {
+	    border-right: 7px;
+	}
+	/*productos*/
+	.section-producto{
+		top:0;
+	}
+	.menu-cat{
+		top:10%;
+		position: fixed;
+		width:100%;
+		overflow: auto;
+		height:8%;
+		padding:0;
+		z-index: 1510;
+		padding:20px 0 5px 0;
+		background:#f6f6f6;
+	
+	}
+	#scrollContent ul li .itemCart{
+		overflow:auto;
+		height:auto;
+		width:95%;
+	}
+	.totalcarrito{
+		width:95%;
+	}
+	.contcart{
+		display:none;
+	}
+	.carrito{
+		top:0;
+		width:90%;
+		
+	}
+	.totales{
+		width:80%;
+		float: right;
+		height:40px;
+	}
+	.carrito header h4 {
+		font-size: 3rem;
+		padding:0em .1em .65em;
+	}
+	#cancelCart{
+		margin:0 .5em .16em 47rem;
+	}
+
+	#scrollContent ul li .itemCartscroll{
+		font-size: 2rem;
+	}
+	.detalleItem{
+		right:200px;
+		font-size:1.5rem;
+	}
+	#cancelCart a .icon-trash-01 {    
+	    font-size: 2.8rem !important;
+	}
+	#scrollContent ul .dropdown{
+		line-height: 2.1em;
+		height:5rem;
+	}
+	#scrollContent ul .dropdown .icon-arrow-mas, #scrollContent ul .dropdown .icon-arrow-menos {
+		font-size:2.5rem;
+	}
+	#scrollContent ul .dropdown span{
+		font-size: 2rem;
+		line-height: 13px;
+	}
+	#scrollContent ul .name{
+		font-size: 2rem;
+		width:80%;
+	}
+	#scrollContent ul .price{
+		right:7rem;
+		margin-top:5px;
+
+	}
+	#scrollContent ul .remove{
+		font-size: 3rem;
+		top: 7px
+	}
+	.ttotalcart{
+		font-size: 2.5rem;
+	}
+	.totalcart{
+		font-size: 2.5rem;
+	}
+	.recoger{
+		width:100%;
+		font-size: 2rem;
+	}
+	.deliv{
+		width:100%;
+		font-size: 2rem;		
+	}
+	.description{
+		font-size: 2rem;
+	}
+	.totalGlobal{
+		font-size: 2rem;
+	}
+	.deliv i{
+		margin-left:61.5rem;
+	}
+	.deliv .tideliv{
+		font-size: 2rem;
+	}
+	.rpedido{
+		font-size: 3rem;
+	}
+	.mensajedepago{
+		font-size: 2rem;
+		margin-bottom:50px;
+	}
+	.cont-productos{
+		float:none;
+		margin:0 auto;
+	}
+	.cont-productos h1{
+		font-size: 4.5rem;
+		line-height: 34px;
+	}
+	.tituloprod{
+		width:100%;
+		font-size: 4rem;
+		-moz-border-image: url("../imagenes/borde-v-01.png") 0 7 0 7 fill repeat;
+	    -webkit-border-image: url("../imagenes/borde-v-01.png") 0 7 0 7 fill repeat;
+	    -o-border-image: url("../imagenes/borde-v-01.png") 0 7 0 7 fill repeat;
+	    border-image: url("../imagenes/borde-v-01.png") 0 7 0 7 fill repeat;
+	    border-left: solid 7px #d70729;
+	   
+	}
+	.tituloprod:nth-child(3n+1) {
+		    border-right: 7px;
+	}
+	.tituloprod h3{
+		margin:20px 0 0 0;
+	}
+	.tituloprod h5{
+		font-size: 2rem;
+	}
+	.tituloprod figure{
+		height:300px;
+	}
+	.tituloprod p{
+		font-size: 2.5rem;
+	}
+	.tituloprod .btn_comprar{
+		font-size: 3rem;
+
+	}
+
+	/*pedido*/
+	.diacedula{
+		width:100%;
+		margin-left:-50%;
+	}
+	.atras{
+		font-size: 3rem;
+	}
+	.canceldia{
+		font-size: 3rem;
+	}
+	.diacedula .textres{
+		font-size: 2rem;
+	}
+	label{
+		font-size: 2rem;
+	}
+	.diacedula input{
+		padding: 20px 2.5%;
+		width:55%;
+	}
+	.diacedula .verificarcedula{
+		padding: 15px;
+		font-size: 2rem;
+	}
+	.resgistro{
+		width:90%;
+	}
+	.titulo-registrado h4{
+		font-size: 2.5rem;
+		line-height:34px;
+	}
+	.diareg .campouno label{
+		font-size: 2rem;
+	}
+	.diareg input{
+		padding: 15px 2.5%;
+	}
+	.diareg .campodoble label{
+		font-size: 2rem;
+	}
+	.registrouser{
+		font-size: 2rem;
+	}
+
+	/*detalles pedido*/
+	.diareg .infoUser .titulo-registrado h4{
+		font-size: 2.5rem;
+	}
+	.diareg .infoUser .editar div{
+		font-size: 1.7rem;
+	}
+	.datosreg{
+		max-height: 150px;
+	}
+	.cambio-datos{
+		
+	}
+
+	.diareg .infoUser .editar .links{
+		font-size: 2rem;
+	}
+	.datosreg article{
+		width:94%;
+		padding: 5px 2%;
+		font-size: 1.9rem;
+
+	}
+	.diareg article h4{
+		font-size: 2rem;
+	}
+	.diareg .infoUser .links-pedido a{
+		font-size: 2rem;
+	}
+	.diareg .infoUser label{
+		width: 50%;
+		font-size: 2rem;
+		
+	}
+	.diareg .infoUser div{
+		width:100%;
+	}
+	.diareg .infoUser input{
+		font-size: 2rem;
+	}
+
+	.diareg .infoUser .temporal label, .diareg .infoUser .perma label {
+		width:75%;
+		font-size: 2rem;
+	}
+	.diareg .infoUser .temporal small, .diareg .infoUser .perma small{
+		width:90%;
+		margin-left: 10%;
+		font-size: 1.3rem;		
+	}
+	.diareg .titultimopaso h4{
+		font-size: 3rem;
+	}
+	.diareg .conpedido{
+		width:100%;
+		font-size: 1.5rem;
+	}
+	.diareg .titulosCart{
+		font-size: 1.5rem;
+	}
+	.diareg .conpedido .detallespe{
+		width:56%;
+	}
+	.diareg .det-delivery{
+		height:35px;
+	}
+	.diareg .det-delivery .tdetde{
+		width:80%;
+		font-size: 2rem;
+		margin-left: 2%;
+	}
+	.det-delivery .selecdeliv{
+		width:80%;
+		font-size: 2rem;
+		margin:4px 0 0 2%;
+	}
+	.diareg .det-delivery .valordetde{
+		font-size: 2rem;
+		width:10%;
+	}
+	.det-delivery .selecdeliv article label{
+		font-size: 1.7rem;
+	}
+	.diareg .cupon{
+		width:100%;
+		margin:5px auto;
+	}
+	.diareg .cuponaplicado{
+		font-size: 2rem;
+		width: 20%;
+	}
+	.diareg .cupon .tcupon{
+		font-size: 2rem;
+		margin-left: 2%;
+	}
+	.diareg .cupon input{
+		width:10%;
+	}
+	.diareg .aplicar{
+		font-size: 2rem;
+	}
+	.diareg .det-delivery .valortotaltitulo{
+		font-size: 2rem;
+	}
+	.diareg .comentarios label{
+		font-size: 2rem;
+		width:80%;
+		margin-left: 2%;
+	}
+	.diareg .comentarios input{
+		width:94%;
+	}
+	.diareg .localp{
+		height: 135px;
+		position: relative;
+	}
+	.diareg .localp .localt, .diareg .localp .concuanto{
+		margin-left: 5%;
+		width: 98%;
+		font-size: 2rem;
+	}
+	.diareg .localp select{
+		width:100%;
+	}
+
+	/*.diareg .localp .concuanto{
+		width:98%;
+		font-size: 2rem;
+		margin-left: 2%
+	}*/
+	.diareg .localp i{
+		margin-left: 0;
+		margin-top: 0;
+		top:111px;
+		z-index: 1;
+		position:absolute;
+		left:6px;
+	}
+	.diareg .localp .pago{
+		width:90%;
+		padding: 15px;
+	}
+	.cobertura{
+		width:70%;
+		font-size: 2rem;
+		margin:15px auto 0 auto;
+		float: none;
+	}
+	.cobertura article{
+		font-size: 1.6rem;
+
+	}
+	.diareg .terminos{
+		width:60%;
+		margin:20px auto 0 auto;
+		font-size: 2rem;
+	}
+	.diareg .terminos .condiciones{
+		font-size: 2rem;
+		width:100%;
+	}
+	.header-orden{
+		position:fixed;
+		width:90%;
+		padding:10px 0;
+		background:#fff;
+		top:0;
+		z-index:1;		
+	}
+	.footer-orden{
+		position:fixed;
+		width:90%;
+		padding:10px 0;
+		background:#fff;
+		bottom:0;
+	}
+	.footer-ordenc{
+		width:100%;
+		padding:10px 0;
+		background:#fff;
+		margin:0 auto;
+		
+	}
+	.diareg .footer-orden .boton{
+		width:84%;
+		font-size: 2rem;
+		margin-bottom: 10px
+	}
+	.diareg .footer-ordenc .boton{
+		width:84%;
+		font-size: 2rem;
+		margin-bottom: 10px
+	}
+	.horariopedido{
+		width:100%;
+		margin:45px 0 0 0;
+		font-size: 1.6rem;
+	}
+	/*confirmacion*/
+	.confirmacion {	   
+	    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	    -o-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	    background: #fff;
+	    padding: 15px;
+	    width: 90%;	    	   
+	    margin:0 auto;
+	    
+    }
+	.confirmacion .body-conf .mensajeenviado {
+	    font-size: 2.5rem;
+	}
+	.confirmacion .body-conf .observa h4 {
+	    font-size: 3rem;
+	}
+	.confirmacion .body-conf .observa div {
+	    padding: 5px 5%;
+	    font-size: 2rem;
+	}
+	.confirmacion .body-conf .sugpedido label {	  
+	    font-size: 2rem;
+	    width: 100%;
+	}
+	.confirmacion .body-conf .sugpedido input {
+	    padding: 15px 5%;
+	    width: 80%;
+	}
+	.confirmacion .body-conf .sugpedido .enviar {
+	    font-size: 2rem;
+	    padding: 10px 5%;
+	    margin:0 auto;
+	    float:none;
+	    width:60%;
+	}
+	.confirmacion .body-conf .sugpedido .omitir {	   
+	    margin:10px auto;
+	    padding: 10px 5%;
+	    font-size: 2rem;
+	    float: none;
+	    width:50%;
+	}
+	/*catering*/
+	.section-catering{
+		top:30px;
+	}
+	/*contacto*/
+	.cont-formularios {
+		top:20px;
+	}
+	.section-contact form{
+		width:80%;
+		font-size: 2rem;
+	}
+	
+	.section-contact form div input {
+		padding: 30px;
+		font-size:2.5rem;
+	}
+	.titulo-cont{
+		font-size: 4.16rem;
+		line-height: 48px;
+	}
+	.datos-c h2{
+		width:100%;
+		font-size: 3rem;
+	}
+	.datos-c .datos{
+		font-size: 2rem;
+		margin-left: 9%;
+	}
+
+	.section-contact h2{
+		width:100%;
+		font-size: 3rem;
+	}
+	.boton{
+		font-size: 2.5rem;
+	}
+	.editar, .guardar{
+		font-size: 2rem;
+	}
+	select{
+		padding:3rem;
+		font-size: 2rem
+	}
+	.cortina-cat{
+		bottom:0;
+	}
+	.locales-img div{
+		float: none;
+		width:95%;
+		margin:0 auto;
+	}
+	
+	/*locales*/
+	.cont-locales{
+		top:0;
+	}
+	.titulo-locales{
+		font-size: 4.16rem;
+	}
+	.section-datos{
+		display:none;
+	}
+	.s1movil, .s2movil{
+		display: block;
+	}
+	.section-promo{
+		top:0;
+	}
+	/*adicionales*/
+	.dialog{
+		width: 100%;
+	    margin-left: -49%;
+	    margin-top: 0%;
+	    position: fixed;
+	    top: 0px;	
+	    height: 100%;
+    	overflow: auto;		
+	}
+	.dialog .item-info h4 {
+	    font-size: 2rem;
+	}
+	.dialog .item-info h4 font {
+	    font-size: 1.5rem;
+	    
+	}
+	.dialog .item-group label {
+	    font-size: 1.8rem;
+	    width: 31.5%;
+	}
+	.dialog h3{
+		width:70%;
+		font-size: 2.3rem;
+	}
+	.dialog .valor-ad{
+		width:30%;
+		
+	}
+	.dialog .valor-ad h2{
+		margin:0;
+		font-size: 2rem;
+	}
+	
+	.tituloprod h3 {
+		margin:0;
+	}
+	.dialog .cant-orden {
+	    top: 14px;
+	}
+	.dialog .cant-titulo {
+	    font-size: 2rem;
+	}
+	.cancel-ad {
+		position:fixed;
+		font-size: 3rem;
+		z-index: 2;
+	}
+
+}
+
+@media only screen and (max-width: 640px){
+	.productos {
+	    margin-top: 40px;
+	}
+	footer{
+		height:225px;
+		top:0;
+	}
+	.datosMat{
+		font-size: 1.5rem;
+	}
+    .titulopag {
+	    font-size: 1.3rem;
+	}
+	.pedidomovil a, .localmovil a{
+		font-size: 6rem
+	}
+	.horario h2{
+		font-size: 2rem;
+	}
+	.horario span{
+		font-size: 1.4rem;
+	}
+	.cintadebfooter{
+		font-size: 1.4rem
+	}
+	.linklupa span{
+		margin:5px 0 15px 25%;
+	}
+	.parrafo{
+		top:70px;
+	}
+	.titulo-h{
+		width: 43%;
+		margin-left: 100px;
+	}
+	.cortina-cat button{
+		font-size: 2.5rem;
+		width:80%;
+		margin-left: -40%;
+		bottom:10px;
+	}
+	.menuall{
+		margin:10px auto 0 auto;
+		float:none;
+		width:70%;
+	}
+	.menuall a{
+		font-size: 3rem;
+	}
+	.hortuto{
+		width:70%;
+		float: none;
+		margin:0 auto;
+	}
+	.eligeloque{
+		text-align: center;
+	}
+	.eligeloque img{
+		width:70%;
+	}
+	.deliv i{
+		margin-left: 48.2rem;
+	}
+	.confirmacion{
+		z-index:10000;
+	}
+	.cambio-datos{
+		/*max-height:330px;*/
+	}
+	.dialog .item-group label {
+		width:47.5%;
+	}
+
+
+}
+@media screen and (max-width: 480px){
+	.menubar a{
+		margin-left:72% !important;
+	}		
+   .pedidomovil a, .localmovil a{
+		font-size: 4rem
+	}
+	.datosMat{
+		width:80%;
+		margin-left:-40%;
+		height:auto;
+	}
+	.linklupa span{
+		margin:5px 0 15px 5%;
+	}
+	footer{
+		height:265px;
+	}
+	.lineatiempo img{
+		width:85% !important;
+	}
+	.titulo-h{
+		width:84% !important;
+		margin-left: 0;
+		top:250px;
+		left:2% !important;
+		font-size: 1.8rem;
+	}
+	.parrafo{
+		width:92% !important;
+		left:2% !important;
+		top:315px !important;
+	}
+	.tituloprod figure{
+		height:180px;
+	}
+	.tituloprod{
+		font-size:3rem;
+	}
+	.tituloprod p{
+		font-size: 2rem;
+	}
+	#scrollContent ul .name{
+		width:70%;
+	}
+	.detalleItem{
+		right:50px;
+	}
+	.deliv{
+		margin-left:0;
+	}
+	.deliv i{
+		margin-left:31.2rem;
+	}
+	.diacedula{
+		top:0px;
+		height:100%;
+	}
+	.diacedula input{
+		width:90%;
+	}
+	.diareg .conpedido .detallespe{
+		width:48%;
+	}
+	.diareg .conpedido .pricec{
+		width:10%;
+	}
+	.diareg .infoUser .editar .links{
+		width:80%;
+		margin:0 auto 0 10%;
+	}
+	.diareg .conpedido .namec{
+		width:20%;
+	}
+	.diareg .titulosCart .titulosc:nth-child(2){
+		text-align: right;
+	}
+	.diareg .det-delivery{
+		height:60px;
+	}
+	.diareg .det-delivery .tdetde{
+		width:80%;
+	}
+	.det-delivery .selecdeliv{
+		width:70%;
+	}
+	.det-delivery .selecdeliv article{
+		display:block;
+		width:80%;
+		height:20px;
+	}
+	.det-delivery .selecdeliv article label{
+		text-align: left;
+	}
+	.cambio-datos{
+		/*max-height:350px;*/
+	}
+	.diareg .infoUser .links-pedido{
+		height:50px;
+	}
+	.diareg .infoUser input{
+		width:93%;
+	}
+	.formres{
+		text-align: left;
+	}
+	.diareg .det-delivery .valordetde{
+		width:15%;
+	}
+	.diareg .aplicar{
+		width:20%;
+		margin:-7px 1% 0 5%;
+	}
+	.diareg .cuponaplicado{
+		width:25%;
+	}
+	.diareg .loalp i{
+		top:112px;
+	}
+	.titulo-cont{
+		width:90%;
+		border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;				
+		-o-border-radius:10px;
+	}
+	.menuall a{
+		width:90%;
+	}
+	.dialog .item-group label {
+	    width: 90%;
+	}
+	.dialog h3{
+		width:65%;
+	}
+	
+	.dialog .cant-orden {
+	    top: 8px;
+	    width: 10%;
+	    font-size: 1.7rem;
+	}
+	.dialog .cant-titulo {
+	    font-size: 1.5rem;
+	}
+	.dialog .al_carrito {
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 375px){
+	.tituloprod h4{
+		width:27%;
+	}
+	.datos-c {
+		width:90%;
+	}
+	#cancelCart {
+	    margin: 0 .5em .16em 12rem;
+	}
+	.diareg .campouno label{
+		width:96%;
+	}
+	.diareg input {
+		width:95%;
+	}
+	.diareg .campodoble {
+		width:95%;
+	}
+	.menubar a{
+		margin-left:62% !important;
+	}
+	.menuprincipal .menutop{
+		width:78%;
+	}
+	.cajon_redes_s{
+		width:95%;
+		margin-left:-50%;
+	}
+	.cajon_redes_s img{
+		width:32%;
+		margin:0 0px;
+	}
+	.testing {
+    	width: 18%;
+    }
+	.link_redes_soc{
+		width:68%;
+	}
+	.link_redes_soc a{
+		width:16%;
+	}
+	.fp-like{
+		margin:10px 0px 0 5px;
+	}
+	.link_redes_soc a img{
+		width:100%;
+		margin:0 !important;
+	}
+	.datosMat{
+		width:83%;
+	}
+	.cintadebfooter p{
+		width:100%;
+		font-size: 1.4rem;
+	}
+	footer{
+		overflow:hidden;
+		height:auto;
+		padding-bottom: 20px;
+	}
+	.menuall a{
+		width:100%;
+	}
+	.hortuto{
+		width:100%;
+	}
+	.deliv i{
+		margin-left:20.1rem;
+	}
+	.titulo-prod{
+		width:100%;
+	}
+	.titulo-prod h1{
+		width:100%;
+		font-size: 4rem;
+		border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		-o-border-radius:10px;
+	}
+	.tituloprod figure{
+		height:140px;
+	}
+	.tituloprod p{
+		font-size:1.8rem 
+	}
+	.tituloprod{
+		font-size: 2.5rem;
+	}
+	.diareg .infoUser .links-pedido{
+		height:70px;
+	}
+	.diareg .infoUser .links-pedido a{
+		width:78%;
+		margin-bottom: 10px
+	}
+	.infoUser{
+		width:100%;
+	}
+	.cambio-datos{
+		/*max-height: 420px;*/
+	}
+	.diareg .conpedido .detallespe{
+		width:45%;
+	}
+	.diareg .conpedido .pricec{
+		width: 13%;
+	}
+	.diareg .titulosCart .titulosc:nth-child(3){
+		width:50%;
+	}
+	.diareg .det-delivery .tdetde{
+		width:77%;
+
+	}
+	.diareg .det-delivery .valordetde{
+		width:16%;
+	}
+	.diareg .cuponaplicado{
+		width:30%;
+	}
+	.diareg .localp i{
+		top:123px;
+	}
+	.dialog .al_carrito {
+		width:100% !important;
+	}
+	.dialog .cant-orden{
+		width:15%;
+	}
+	
+	
+
+
+}
+@media screen and (max-width: 360px){
+	.deliv i{
+		margin-left:18.5rem;
+	}
+	
+}
+@media screen and (max-width: 320px){
+	.menubar a{
+		margin-left:46% !important;
+	}
+	.menuprincipal .menutop{
+		width:71%;
+	}
+	header{
+		height:auto;
+	}
+	.testing{
+		width:25%;
+	}
+	.home{
+		margin:2px 5% 0 35% !important;
+	}
+	
+   	.link_redes_soc a{
+   		width:13%;
+   		margin-top: 5px;
+   	}
+   	.datosMat{
+   		width:100%;
+   		margin-left: -50%;
+   		font-size: 1.5rem;
+   	}
+   	.cintadebfooter p{
+   		margin-top:10px;
+   	}
+   	.hortuto{
+		margin-bottom: 30px;
+	}
+   	.horario span {
+	    font-size: 1.4rem;
+	}
+	.horario span strong{
+		width:30%;
+	}
+   	.pedidomovil a, .localmovil a{
+   		font-size: 3.4rem;
+   	}
+
+   	.menutop aside a{
+   		margin-left: 10%;
+   	}
+   	.menuall{
+   		width:80%;
+   	}
+   	.cortina-cat button{
+   		font-size: 1.5rem;
+   	}
+	.titulocat h3{
+		font-size: 3rem;
+		padding-bottom:0;
+	}  
+	.section-producto{
+		width:100%;
+	} 
+	.cont-productos{
+		width:90%;
+	}	
+	.tituloprod{
+		width:93%;
+	}
+	.titulo-prod h1{
+		width:93%;
+	}
+	.deliv i{
+		margin-left: 13.9rem;
+	}
+	#scrollContent ul .name{
+		width:70%;
+		font-size: 1.5rem;
+	}
+	
+	.diacedula .textres{
+		padding: 10px 5%;
+		width:90%;
+	}
+	.diareg .campouno label, .diareg .campodoble label{
+		font-size: 1.9rem;
+	}
+	.cambio-datos{
+		/*max-height: 620px;*/
+	}
+	.diareg .infoUser .temporal input, .diareg .infoUser .perma input{
+		width:100%;
+		margin-left: 0;
+	}
+	.diareg .infoUser .temporal label, .diareg .infoUser .perma label{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.diareg .infoUser .temporal small, .diareg .infoUser .perma small{
+		width:100%;
+		margin-left: 0;
+	}
+	.diareg .infoUser label{
+		float:none;
+		width:100%;
+	}
+	.diareg .infoUser div{
+		width:100%;
+		float: none;
+	}
+	.guardar, .editar{
+		float:left !important;
+	}
+	.diareg .det-delivery .valordetde{
+		width:19%;
+	}
+	.diareg .det-delivery .tdetde{
+		width: 73%
+	}
+	.diareg .cuponaplicado{
+		width:35%;
+	}
+	.det-delivery .selecdeliv{
+		width:75%;
+	}
+	.diareg .localp i{
+		top:123px;
+	}
+	.confirmacion{
+		top:0;
+		margin-top: 0;
+		height: 100%;
+		overflow: auto;
+		
+	}
+	.confirmacion .body-conf .sugpedido .enviar, .confirmacion .body-conf .sugpedido .omitir{
+		width:83%;
+		margin-left: 0%;
+		float: none;
+		margin:5px auto;
+
+	}
+	#cancelCart {
+	    margin: 0 .5em .16em 7rem;
+	}
+	
+
+
+}

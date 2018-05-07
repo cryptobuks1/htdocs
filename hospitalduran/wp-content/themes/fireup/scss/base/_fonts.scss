@@ -1,0 +1,55 @@
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Light.eot?v=1.1.0");
+  src: url("assets/fonts/OpenSans-Light.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("assets/fonts/OpenSans-Light.woff?v=1.1.0") format("woff"), url("assets/fonts/OpenSans-Light.ttf?v=1.1.0") format("truetype"), url("assets/fonts/OpenSans-Light.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Regular.eot?v=1.1.0");
+  src: url("assets/fonts/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("assets/fonts/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("assets/fonts/OpenSans-Regular.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* END Regular */
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Italic.eot?v=1.1.0");
+  src: url("assets/fonts/OpenSans-Italic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("assets/fonts/OpenSans-Italic.woff?v=1.1.0") format("woff"), url("assets/fonts/OpenSans-Italic.ttf?v=1.1.0") format("truetype"), url("assets/fonts/OpenSans-Italic.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Bold.eot?v=1.1.0");
+  src: url("assets/fonts/OpenSans-Bold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.woff?v=1.1.0") format("woff"), url("assets/fonts/OpenSans-Bold.ttf?v=1.1.0") format("truetype"), url("assets/fonts/OpenSans-Bold.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* END Bold */
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-ExtraBoldItalic.eot?v=1.1.0");
+  src: url("assets/fonts/OpenSans-ExtraBoldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("assets/fonts/OpenSans-ExtraBoldItalic.woff?v=1.1.0") format("woff"), url("assets/fonts/OpenSans-ExtraBoldItalic.ttf?v=1.1.0") format("truetype"), url("assets/fonts/OpenSans-ExtraBoldItalic.svg?v=1.1.0#OpenSansBold") format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("assets/fonts/websymbols-regular-webfont.eot");
+  src: url("assets/fonts/websymbols-regular-webfont.eot?#iefix") format('embedded-opentype'), 
+     url("assets/fonts/websymbols-regular-webfont.woff") format('woff'), 
+     url("assets/fonts/websymbols-regular-webfont.ttf") format('truetype'), 
+     url("assets/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,1 @@
+[20-Aug-2016 22:30:05 America/New_York] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/hospitalduran/public_html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 17

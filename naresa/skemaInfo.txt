@@ -1,0 +1,10 @@
+cpanel
+usuario: skemadis
+clave: k202s6032P5956X
+
+base de datos "skemadis_datos"
+usuario: skemadis_dani
+clave: nm-$~x)[;#bQ
+
+usuario cpanel: dannysk
+Clave: @ds2450705

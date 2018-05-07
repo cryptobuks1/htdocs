@@ -1,0 +1,218 @@
+#comments {
+	position: relative;
+}
+#comments header {
+	background: #f3f3f3;
+	padding: 20px;
+}
+#comments header h2 {
+	font-size: 16px;
+}
+#comments .commentlist {
+	clear: both;
+	list-style: none;
+	padding-top: 1.618em;
+	padding-left: 0;
+	margin-bottom: 3.631em;
+}
+#comments .commentlist:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+#comments .commentlist li.comment {
+	background-color: #f9f9f9;
+	margin-bottom: 1.618em;
+	padding: 20px;
+	position: relative;
+	list-style: none;
+}
+#comments .commentlist li.comment .comment-head span {
+	display: block;
+}
+#comments .commentlist li.comment:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+#comments .commentlist li.comment .comment-container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+#comments .commentlist li.comment .comment-container div.avatar {
+	float: left;
+}
+#comments .commentlist li.comment .comment_container div.avatar img {
+	border-radius: 50%;
+}
+#comments .commentlist li.comment .comment-container .comment-head,
+#comments .commentlist li.comment .comment_container .comment-text {
+	float: left;
+	margin-left: 20px;
+}
+#comments .commentlist li.comment .comment-container .comment-entry {
+	clear: both;
+	margin-left: 72px;
+	font-size: 14px;
+	color: #777;
+	line-height: 1.5em;
+}
+#comments .commentlist li.comment .comment-container .comment-head {
+	margin-bottom: .618em;
+}
+#comments .commentlist li.comment .comment-head .name {
+	font-size: 14px;
+	line-height: 1;
+}
+#comments .commentlist li.comment .comment-head .date a {
+	color: #999999;
+	font-size: 11px;
+}
+#comments .commentlist li.comment .comment-head .date a:hover {
+	color: #47a7d7;
+}
+#comments .commentlist li.comment img.avatar {
+	border-radius: 50%;
+	height: auto;
+	float: left;
+	width: 52px;
+}
+#comments .commentlist li.comment .comment_container .comment-text {
+	width: 91.35%;
+}
+#comments .commentlist li.comment ul.children {
+	margin-left: 1.618em;
+	padding-top: 1.618em;
+}
+#comments .commentlist li.comment .depth-2 {
+	background-color: darken(#f9f9f9, 1%);
+}
+#comments .commentlist li.comment .depth-3 {
+	background-color: #f5f5f5;
+}
+#comments .commentlist li.comment .depth-4 {
+	background-color: #f3f3f3;
+}
+#comments .commentlist li.comment .bypostauthor {
+}
+#comments .commentlist li.comment .reply {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-size: 13px;
+}
+#comments .commentlist li.comment #respond {
+	padding-top: 1.618em;
+}
+#comments .navigation a {
+	display: block;
+	text-decoration: none;
+}
+#comments .pingbacks li.pingback {
+	margin: 0 0 1.618em;
+}
+#comments .pingbacks li.pingback .reply {
+	display: none;
+}
+#comments .nocomments {
+	padding: 1.618em 0;
+	margin: 1.618em 0;
+	border: 4px double #e8e4e3;
+	border-right: 0;
+	border-left: 0;
+}
+
+/* Comment Form */
+#respond {
+	background: #f5f5f5;
+	margin-bottom: 3.631em;
+	padding: 20px;
+}
+#respond label {
+	color: #877c78;
+}
+#respond #reply-title {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+#respond #reply-title small {
+	margin-left: 10px;
+	font-size: .618em;
+}
+#respond #commentform .comment-form-author,
+#respond #commentform .comment-form-email,
+#respond #commentform .comment-form-url {
+	width: 30.75%;
+	float: left;
+	margin-right: 3.8%;
+}
+#respond #commentform .comment-form-comment label,
+#respond #commentform .comment-form-author label,
+#respond #commentform .comment-form-email label,
+#respond #commentform .comment-form-url label {
+	display: inline-block;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+#respond #commentform .fa {
+	margin-right: 5px;
+}
+#respond #commentform .comment-form-author input,
+#respond #commentform .comment-form-email input,
+#respond #commentform .comment-form-url input {
+	width: 100%;
+}
+#respond #commentform .comment-form-url {
+	margin-right: 0;
+}
+#respond #commentform .comment-form-comment {
+	clear: both;
+}
+#respond #commentform p {
+	margin-bottom: 20px;
+}
+#respond #commentform .form-submit {
+	margin-bottom: 0;
+}
+#respond #commentform .form-submit #submit {
+	background-color: $accent-1;
+	border: 1px solid darken($accent-1, 5%);
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px 8px;
+	letter-spacing: 1px;
+	&:hover {
+		background-color: #303030;
+		border: 1px solid #000;
+	}
+}
+#respond #commentform label {
+	display: block;
+}
+#respond #commentform input.txt,
+#respond #commentform textarea {
+	width: 100%;
+}
+
+#respond #commentform textarea {
+	border-color: #ddd;
+}
+
+.nav-previous {
+	float: left;
+}
+.nav-next {
+	float: right;
+}
+
+#cancel-comment-reply-link {
+	font-family: $body-font-family;
+	font-size: 14px;
+}

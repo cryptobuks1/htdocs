@@ -1,0 +1,6 @@
+nombre,referencia,unidad,descrip,imagen,valor,idCat
+camara1,a1255,,la marina,cam.png,300000,Camáras
+camara2,d12,,lince,cctv(5).jpg,450000,Camáras
+cable,df5,M,sta anita,cable.png,3000,Cables
+tv,g5,,calle prueba,958745122,450000,Televisores
+tubo electrico,456,M,sda,dsfa,4566,Tubos

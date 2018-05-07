@@ -1,0 +1,64 @@
+.departments-list {
+	margin-bottom: 60px;
+}
+
+.post-type-archive-department {
+
+	.departments-content {
+		background-color: #fff;
+
+		.col-md-15:hover {
+			.department {
+				border-color: $accent-1;
+			}
+		}
+
+		.department {
+			border: 2px solid #eee;
+			margin: -1px -1px;
+			min-height: 357px;
+			.img-wrapper {
+				display: inline-block;
+				background: $accent-1;
+				padding: 25px;
+				margin-bottom: 20px;
+			}
+			h3 a {
+				color: #333;
+				margin-bottom: 16px;
+			}
+			p {
+				color: #444;
+				font-size: 14px;
+				margin-bottom: 1.5em;
+			}
+			.more-link {
+				border: 2px solid #eee;
+				display: inline-block;
+				font-size: 14px;
+				padding: 10px 20px;
+				border-radius: 25px;
+				color: #333;
+				font-weight: 700;
+			}
+			&:hover {
+				h3 a,
+				p {
+					color: #fff;
+				}
+				.more-link {
+					border-color: #fff;
+					color: #fff;
+					&:hover {
+						background: darken($accent-1, 10%);
+					}
+				}
+			}
+		}
+		.col-md-15:nth-child(5n) .department {
+			border-right: 2px solid #eee;;
+		}
+
+	}
+
+}

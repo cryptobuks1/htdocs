@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head> <meta charset="UTF-8">
+	<title>Guardar Multiples Archivos</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> <!-- Integramos jQuery-->
+	<script src="script.js"></script> <!-- Integramos nuestro script que contendra nuestras funciones Javascript-->
+	
+	<!-- Creamos un estilo para nuestro documento -->
+	<style type="text/css">
+		body{
+			font-size: 16px;
+			text-align: center;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,002066+100 */
+                        background: #1e5799; /* Old browsers */
+                        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,001256+99 */
+                        background: #1e5799; /* Old browsers */
+                        background: -moz-linear-gradient(left,  #1e5799 0%, #001256 99%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(left,  #1e5799 0%,#001256 99%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to right,  #1e5799 0%,#001256 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#001256',GradientType=1 ); /* IE6-9 */
+
+			margin: 0 auto;
+
+		}
+		.mensage, .mensage2{
+			border:dashed 1px #00ffa1;
+			background-color:#c6f4ff;
+			color: #000000;
+			padding: 10px;
+			text-align: left;
+			margin: 10px auto; 
+			display: none;//Al cargar el documento el contenido del mensaje debe estar oculto
+		}
+                
+	</style>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3" style="text-align:center; margin-top:15px">
+                    <img src="Files/logo.png">
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1>Subir Imagenes</h1>
+                        </div>
+                        <div class="panel-body">
+                            <div class="mensage"> Archivos Subidos Correctamente </div> 
+                            <div class="row">
+                                <form action="prueba.php" method="POST" enctype="multipart/form-data">
+                                <div class="col-md-5 col-md-offset-1"><input class="btn btn-primary" type="file"  multiple="multiple" id="archivos"></div><!-- Este es nuestro campo input File-->
+                                <div class="col-md-5 col-md-offset-1"><input type="button" type="submit" value="enviar" class="btn btn-success"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Formulario para subir los archivos -->
+                </div>
+                
+            </div>
+            <div class="row">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1>Subir Productos</h1>
+                        </div>
+                        <div class="panel-body">
+                            <div class="mensage2"> Seleccionar archivo CSV </div> 
+                            <div class="row">
+                                <div class="col-md-5 col-md-offset-1"><input class="btn btn-primary" type="file" id="csv"></div><!-- Este es nuestro campo input File-->
+                                <div class="col-md-5 col-md-offset-1"><button type="button" id="subir" class="btn btn-success">Subir Archivo</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+	</body>
+</html>

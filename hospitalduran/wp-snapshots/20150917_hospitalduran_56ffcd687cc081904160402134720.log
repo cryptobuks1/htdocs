@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-04-02 13:47:39
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.2
+WORDPRESS:	4.2.7
+PHP INFO:	5.4.35 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 40.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:29 | filtered:0 | create:29 
+FILTERED: [] 
+SQL CREATED: 20150917_hospitalduran_56ffcd687cc081904160402134720_database.sql 
+SQL FILE SIZE: 4.13MB (4334978) 
+SQL FILE TIME: 2016-04-02 13:47:50 
+SQL RUNTIME: 11.18 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/hospitalduran/public_html 
+ARCHIVE FILE: 20150917_hospitalduran_56ffcd687cc081904160402134720_archive.zip 
+FILTERS: *ON* 
+DIRS:  /home/hospitalduran/public_html/wp-content/themes/kapital/plugins; 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	107.11MB 
+STATS:	Dirs 593 | Files 4,731 
+SQL ADDED: 20150917_hospitalduran_56ffcd687cc081904160402134720_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5324
+    [filename] => /home/hospitalduran/public_html/wp-snapshots/tmp/20150917_hospitalduran_56ffcd687cc081904160402134720_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 67.16MB 
+ARCHIVE RUNTIME: 161.63 sec. 
+MEMORY STACK: 42.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/home/hospitalduran/public_html/wp-snapshots/tmp/20150917_hospitalduran_56ffcd687cc081904160402134720_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 4.13MB 
+Installer File: 318.86KB 
+Archive File: 67.16MB  
+
+********************************************************************************
+RECORD ID:[9]
+TOTAL PROCESS RUNTIME: 243.31 sec.
+PEAK PHP MEMORY USED: 44.75MB
+DONE PROCESSING => 20150917_hospitalduran 2016-04-02 13:51:43
+ 

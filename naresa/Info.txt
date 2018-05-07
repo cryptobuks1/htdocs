@@ -1,0 +1,15 @@
+correo:
+naresapublicidad@gmail.com
+clave: naresapu
+
+hosting
+usuario: naresapublicidad
+clave: b94506025
+
+clave: RK67s1Xwg0
+
+
+
+base de datos: u782802929_nares
+usuario: u782802929_nares
+pass:QxSW03R0nS

@@ -1,0 +1,50 @@
+// Import helpers files
+// -------------------------------------------------
+
+// Variables
+@import "helpers/font-stacks";
+@import "helpers/color-palettes";
+
+// Mixins
+@import "helpers/mixins";
+
+// Typography Variables
+// -------------------------------------------------
+
+// Basic Typography
+$base-font-size:       16px;
+$base-line-height:     24px;
+$font-size:            $base-font-size !default;
+$browser-font-size:    16px !default;
+
+// Body type
+$body-font-family:     'Raleway', sans-serif !default;
+$body-font-weight:     400 !default;
+$body-font-style:      normal !default;
+
+// Heading type
+$heading-font-family:  'Raleway', sans-serif !default;
+$heading-font-weight:  700 !default;
+$heading-font-style:   normal !default;
+
+// Color Variables
+// -------------------------------------------------
+
+// Project base color
+$body-bg-color:        #eee !default;
+$border-color:         $gray_light !default;
+$accent-1:             #2caae2 !default;
+$accent-2:             $black !default;
+
+// Selection color
+$selection-bg-color:   $accent-1 !default;
+$selection-font-color: $white !default;
+
+// Typography color
+$body-font-color:      #555 !default;
+$heading-font-color:   #323232 !default;
+
+// Link color
+$link-color:           $accent-1 !default;
+$link-hover-color:     lighten($link-color, 10%) !default;
+$link-visited-color:   darken($link-color, 5%) !default;

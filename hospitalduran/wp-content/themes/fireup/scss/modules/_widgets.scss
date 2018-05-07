@@ -1,0 +1,35 @@
+.posts-thumbnail-widget {
+	li:before,
+	li:after {
+		content: "";
+		display: table;
+	}
+	.entry-thumbnail {
+		float: left;
+		margin: 0 10px 0 0;
+	}	
+}
+
+.widget ul.product_list_widget li {
+	clear: left;
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: .5em;
+	#secondary & {
+		margin-left: 0;
+		list-style: none;
+	}
+	.amount {
+		color: rgba(77, 77, 77, 0.5);
+		font-size: 12px;
+	}
+}
+.widget ul.product_list_widget li img {
+	float: left;
+	margin: 0 15px 0 0;
+	width: 45px;
+	height: auto;
+}
+.widget ul.product_list_widget li a {
+	display: block;
+}

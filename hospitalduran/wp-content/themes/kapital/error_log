@@ -1,0 +1,1 @@
+[13-Dec-2015 19:19:40 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/hospitalduran/public_html/wp-content/themes/kapital/index.php on line 3

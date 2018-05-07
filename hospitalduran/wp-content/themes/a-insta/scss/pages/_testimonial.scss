@@ -1,0 +1,32 @@
+.testimonial {
+
+	.testimonial-content {
+		background-color: #fafafa;
+		border: 1px solid #eee;
+		float: left;
+		margin: 3em 0;
+		padding: 0 40px;
+		text-align: center;
+	}
+
+	.testimonial-thumbnail {
+		border-radius: 64px;
+		margin-top: -30px;
+	}
+
+	.entry-title {
+		font-size: 18px;
+		a {
+			color: #323232;
+			&:hover {
+				color: $accent-1;
+			}
+		}
+	}
+
+}
+
+.testimonial-website {
+	font-size: 13px;
+	padding-bottom: 20px;
+}
