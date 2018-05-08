@@ -29,7 +29,19 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
                   <i class="fa fa-search"></i>
                   <input type="text" class="buscar" placeholder="Estoy buscando..."/>
               </span>
+              <?php if(isset($_SESSION['user'])) { ?>
+                  <span>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <i class="fa fa-user"></i> <?php echo $_SESSION["user"]["usuario"]; ?>
+                      <span class="caret"></span></a>
+                  <ul class="dropdown-menu b-top-user pull-right">
+                      <li class="b-top-nav__2level f-top-nav__2level f-primary f-top-nav__2level_title"><a href="GE-micuenta.php">Mi Cuenta</a></li>
+                      <li class="b-top-nav__2level f-top-nav__2level f-primary f-top-nav__2level_title"><a href="logout.php">Cerrar Sesión</a></li>
+                  </ul>
+              </span>
+              <?php }else{ ?>
               <span> <i class="fa fa-user"></i><a href="MS-login.php"> Identifícate </a>| <a href="MS-registro.php"><strong>Registrate</strong></a></span>
+              <?php } ?>
           </div>
           <div class="b-top-nav-show-slide f-top-nav-show-slide j-top-nav-show-slide b-right"><i class="fa fa-align-justify"></i></div>
       </div>
@@ -79,7 +91,7 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
                                     <li class="b-top-nav__2level f-top-nav__2level f-primary b-top-nav__with-multi-lvl"><a  href="MS-shop_listing_full_width.php?id=<?php echo $sub->id ?>"><i class="<?php echo $sub->img ?>"></i> <?php echo $sub->nombre?></a>
                                         <ul class="b-top-nav__multi-lvl-box">
                                             <?php foreach ($prosub as $pros){ ?>
-                                            <li class="b-top-nav__multi-lvl"><a href="#"><i class="fa fa-angle-right"></i><?php echo $pros->name?></a></li>
+                                            <li class="b-top-nav__multi-lvl"><a href="MS-shop_detail.php?id=<?php echo $pros->id ?>"><i class="fa fa-angle-right"></i><?php echo $pros->name?></a></li>
                                             <?php } ?>
                                         </ul>
                                     </li>
@@ -95,7 +107,7 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
                                   <li class="b-top-nav__2level_title f-top-nav__2level_title">marcas</li>
                                   <?php $mar=$marca->getAll();
                                   foreach ($mar as $m){?>
-                                      <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="#"><i class="fa fa-angle-right"></i><?php echo $m->nombre ?></a></li>
+                                      <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="MS-shop_listing_full_width.php?id=<?php echo $m->id ?>"><i class="fa fa-angle-right"></i><?php echo $m->nombre ?></a></li>
                                   <?php } ?>
                               </ul>
                           </div>

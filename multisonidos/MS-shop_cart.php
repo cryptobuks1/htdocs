@@ -116,17 +116,8 @@ spl_autoload_register(function ($clase) {
                                                     </td>
                                                     <td class="f-center">
                                                         <div class="b-product-card__info_count ">
-                                                            <?php if($d['modi']=='modi'){ ?>
-                                                            <input type="number" min="1"
-                                                                   class="form-control form-control--secondary j-product-count cantid"
-                                                                   name="cant" value="<?php echo $d['cant'] ?>"
-                                                                   data-id="<?php echo $d['id'] ?>" data-idcla="<?php echo $d['idclasif'] ?>"/>
-                                                            <?php }else{ ?>
-                                                                <input type="number" min="1"
-                                                                       class="form-control form-control--secondary j-product-count cantid"
-                                                                       name="cant" value="<?php echo $d['cant'] ?>"
-                                                                       data-id="<?php echo $d['id'] ?>" disabled/>
-                                                            <?php }?>
+                                                            <input type="number" min="1" class="form-control form-control--secondary j-product-count cantid"  value="<?php echo $d['cant'] ?>" data-id="<?php echo $d['id'] ?>" data-idcla="<?php echo $d['idclasif'] ?>"/>
+
                                                         </div>
                                                     </td>
                                                     <td><span class="f-primary-b c-default f-title-medium">$<span

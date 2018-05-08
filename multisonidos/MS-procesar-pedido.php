@@ -2,7 +2,7 @@
 spl_autoload_register(function ($clase) {
     include 'Administer/class/'.$clase.'/'.$clase.'.php';
 });
-echo '<link type="text/css" data-themecolor="default" rel="stylesheet" href="css/main-default.css">
+echo '<link type="text/css" data-themecolor="default" rel="stylesheet" href="css/main-cyan.css">
 <div id="myLoading" class="myloading" payu-loading="" style="display: block;">
     
         <div class="animate-loading">
@@ -41,6 +41,7 @@ date_default_timezone_set('America/Bogota');
     $pedido->setEstado(0);
     $pedido->setCupon($cupon);
     $pedido->setDescuento($des);
+    $pedido->save();
     $ped = $pedido->getUltimoRegistro();
     $linea = new LineaPedido(new Conexion());
     $datos = $_SESSION['carrito'];
@@ -59,12 +60,12 @@ date_default_timezone_set('America/Bogota');
     $cupones->setEstado(1);
      $cupones->setPedido($ped->id);
      $cupones->update($cupon);
-    include 'GE-pedido-cliente-mail.php';
+    include 'MS-pedido-cliente-mail.php';
     $to = $_SESSION['user']['mail'];
     $from = 'MIME-Version: 1.0' . "\r\n";
     $from .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $from .= 'To:' . $_SESSION['user']['mail'] . '' . "\r\n";
-    $from .= 'From: Do_Not_reply@grupodeemprendedores.com' . "\r\n";
+    $from .= 'From: Do_Not_reply@multisonidos.com' . "\r\n";
     date_default_timezone_set('America/Bogota');
     $tema = "Compra en linea";
 
@@ -82,7 +83,7 @@ date_default_timezone_set('America/Bogota');
         $sig = "1XAlMeg5k6vZ3XUjxwHYV3vQP6~719306~" . time() . "~" . $total . "~COP";
         $sigMd5 = md5($sig);
         $amount = $total;
-        unset($_SESSION['total']);
+       unset($_SESSION['total']);
         echo '<form action="https://checkout.payulatam.com/ppp-web-gateway-payu/" method="post" class="formpayu">
         <input name="merchantId"    type="hidden"  value="719306"   >
         <input name="accountId"     type="hidden"  value="724178" >
@@ -106,7 +107,7 @@ date_default_timezone_set('America/Bogota');
         </script>';
     } else {
         unset($_SESSION['total']);
-        //header('Location: GE-pedido-finalizado.php');
+        header('Location: MS-pedido-finalizado.php');
     }
 
 ?>

@@ -33,11 +33,11 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
               </span>
               <?php if(isset($_SESSION['user'])) { ?>
               <span>
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <a class="dropdown-toggle " data-toggle="dropdown" href="#">
                       <i class="fa fa-user"></i> <?php echo $_SESSION["user"]["usuario"]; ?>
                       <span class="caret"></span></a>
-                  <ul class="dropdown-menu b-top-user">
-                      <li class="b-top-nav__2level f-top-nav__2level f-primary f-top-nav__2level_title"><a href="GE-micuenta.php">Mi Cuenta</a></li>
+                  <ul class="dropdown-menu b-top-user pull-right">
+                      <li class="b-top-nav__2level f-top-nav__2level f-primary f-top-nav__2level_title"><a href="MS-micuenta.php">Mi Cuenta</a></li>
                       <li class="b-top-nav__2level f-top-nav__2level f-primary f-top-nav__2level_title"><a href="logout.php">Cerrar Sesión</a></li>
                   </ul>
               </span>
@@ -96,10 +96,10 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
                                     <?php $subelectro=$cat->getByTag("'computablet','celular', 'televisor', 'audiovideo'");
                                     foreach ($subelectro as $sub){
                                         $prosub=$producto->getByIdCat($sub->id);?>
-                                    <li class="b-top-nav__2level f-top-nav__2level f-primary b-top-nav__with-multi-lvl"><a onclick="return false" href="#"><i class="<?php echo $sub->img ?>"></i> <?php echo $sub->nombre?></a>
+                                    <li class="b-top-nav__2level f-top-nav__2level f-primary b-top-nav__with-multi-lvl"><a onclick="return false" href="MS-shop_listing_full_width.php?id=<?php echo $sub->id ?>"><i class="<?php echo $sub->img ?>"></i> <?php echo $sub->nombre?></a>
                                         <ul class="b-top-nav__multi-lvl-box">
                                             <?php foreach ($prosub as $pros){ ?>
-                                            <li class="b-top-nav__multi-lvl"><a href="#"><i class="fa fa-angle-right"></i><?php echo $pros->name?></a></li>
+                                            <li class="b-top-nav__multi-lvl"><a href="MS-shop_detail.php?id=<?php echo $pros->id ?>"><i class="fa fa-angle-right"></i><?php echo $pros->name?></a></li>
                                             <?php } ?>
                                         </ul>
                                     </li>
@@ -115,7 +115,7 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
                                   <li class="b-top-nav__2level_title f-top-nav__2level_title">marcas</li>
                                   <?php $mar=$marca->getAll();
                                   foreach ($mar as $m){?>
-                                      <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="#"><i class="fa fa-angle-right"></i><?php echo $m->nombre ?></a></li>
+                                      <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="MS-shop_listing_full_width.php?id=<?php echo $m->id ?>"><i class="fa fa-angle-right"></i><?php echo $m->nombre ?></a></li>
                                   <?php } ?>
                               </ul>
                           </div>

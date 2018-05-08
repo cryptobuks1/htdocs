@@ -281,7 +281,7 @@ jQuery(function ($) {
             success:function(data){
                 $('.itemsCart').html(data);
                 $('.cargando').fadeOut();
-                actualizar('.totalCart', 'GE-actualizartotal.php');
+                actualizar('.totalCart', 'MS-actualizartotal.php');
                 actualizardatatotal('.aplicar');
                 $('.cupo').attr('value', '');
                 $('.alert-cupon').fadeOut();
@@ -294,6 +294,7 @@ jQuery(function ($) {
         var id_prod = $(this).data('id');
         var id_cla=$(this).data('idcla');
         var cant=$(this).val();
+        alert(id_prod+'--'+id_cla);
         $.ajax({
             type: 'POST',
             url: 'cargarcarro2.php',
@@ -309,7 +310,7 @@ jQuery(function ($) {
             success:function(data){
                 $('.itemsCart').html(data);
                 $('.cargando').fadeOut();
-                $(".totalCart").load("GE-actualizartotal.php");
+                $(".totalCart").load("MS-actualizartotal.php");
                 $('.cupo').val('');
                 $('.cupo').removeAttr('disabled');
                 $('.alert-cupon').fadeOut();

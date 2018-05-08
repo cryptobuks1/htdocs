@@ -71,7 +71,7 @@ $mensaje='<table align="center" border="0" cellpadding="0" cellspacing="0" width
             <table>
                 <tr>
                     <td>
-                        <a href="http://www.grupodeemprededores.com">www.grupodeemprendedores.com</a>
+                        <a href="http://www.grupodeemprededores.com">www.multisonidos.com</a>
                     </td>
                     <td align="right">
                         <table border="0" cellpadding="0" cellspacing="0">
