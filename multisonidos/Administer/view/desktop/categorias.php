@@ -9,7 +9,7 @@ spl_autoload_register(function ($clase) {
 	<head>
 
 	<?php include("../../llamadoshead.php");
-	$categorias=new Marca(new Conexion());
+	$categorias=new Categoria(new Conexion());
 	$cat=$categorias->getAll();
     if(isset($_GET['id'])){
         $id=$_GET["id"];

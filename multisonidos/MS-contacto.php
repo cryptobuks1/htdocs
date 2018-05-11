@@ -1,4 +1,10 @@
-<?php $mipagina = "contacto"; ?>
+    <?php session_start();
+    $mipagina = "contacto";
+    spl_autoload_register(function ($clase) {
+        include 'Administer/class/'.$clase.'/'.$clase.'.php';
+    });
+
+    ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -173,7 +179,7 @@
     </li>
     <li class="col-xs-12">
         <div class="b-google-map__info-window-address-icon f-center pull-left">
-            <i class="fa fa-mobile-phone"></i>
+            <i class="fas fa-mobile-alt"></i>
         </div>
         <div>
             <div class="b-google-map__info-window-address-title f-google-map__info-window-address-title">
@@ -299,8 +305,7 @@
 <script src="js/loader.js"></script>
 <script src="js/scrollIt/scrollIt.min.js"></script>
 <script src="js/modules/navigation-slide.js"></script>
-
-
+<?php include 'footer.php'; ?>
 </body>
 </html>
 

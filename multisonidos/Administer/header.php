@@ -30,7 +30,7 @@
 							<ul class="list-unstyled">
 								<li class="divider"></li>
 								<li>
-									<a role="menuitem" tabindex="-1" href="view/desktop/index.php" data-lock-screen="true"><i class="fa fa-lock"></i> Datos de Acceso</a>
+									<a role="menuitem" tabindex="-1" href="editUsuario.php?id=<?php echo $_SESSION['user']['id'] ?>" ><i class="fa fa-lock"></i> Mi Cuenta</a>
 								</li>
 								<li>
 									<a role="menuitem" tabindex="-1" href="../login/logout.php"><i class="fa fa-power-off"></i> Cerrar Sesión</a>

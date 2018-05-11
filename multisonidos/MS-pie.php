@@ -19,7 +19,7 @@
                         <li class="is-active-bottom-nav"><a href="#">Conocenos</a></li>
                         <li><a href="#">Politicas y condiciones</a></li>
                         <li><a href="#">Protección de datos</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="MS-contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -61,19 +61,19 @@
           
           <div class="b-contacts-short-item col-md-12 col-sm-4 col-xs-12">
             <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_md">
-              <i class="fa ">☎</i>
+              <i class="fas fa-phone"></i>
             </div>
             <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_phone ">
                 <big>Tel.:  (57+2) 881 6218 - 395 3448</big>
             </div>
             <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_md">
-              <i class="fa ">☎</i>
+              <i class="fas fa-phone"></i>
             </div>
             <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_phone ">
                 <big>Tel.:  (57+2) 396 0022</big>
             </div>
             <div class="b-contacts-short-item__icon f-contacts-short-item__icon b-left f-contacts-short-item__icon_md">
-              <big><i class="fa fa-mobile-phone"></i></big>
+              <big><i class="fas fa-mobile-alt"></i></big>
             </div>
             <div class="b-remaining f-contacts-short-item__text f-contacts-short-item__text_phone">
                <a href="tel:57+3167846679 "> <big> Cel.:  (57) 316 784 6679 <i class="fa fa-phone-square"></i></big> whatsapp</a>
@@ -90,13 +90,13 @@
          
           <div class="b-btn-group-hor f-btn-group-hor">
             <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
-              <i class="fa fa-instagram"></i>
+              <i class="fab fa-facebook-square"></i>
             </a>
             <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
-              <i class="fa fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
             </a>
             <a href="#" class="b-btn-group-hor__item f-btn-group-hor__item">
-              <i class="fa fa-linkedin"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>

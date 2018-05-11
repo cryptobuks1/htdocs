@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
                 <h2 class="title text-uppercase text-bold m-none"><i class="fa fa-user mr-xs"></i> INICIAR SESIÓN</h2>
             </div>
             <div class="panel-body">
-                <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" name="form1" id="form1">
+                <form action="login.php" method="post" name="form1" id="form1">
                     <?php
                     if(!isset($ms)) {
                         $ms = $pass = isset($_GET['ms']) ? $_GET['ms'] : '';

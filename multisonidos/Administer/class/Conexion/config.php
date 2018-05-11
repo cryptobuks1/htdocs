@@ -7,7 +7,7 @@ define('DB_HOST', 'localhost');
 //define('DB_USER', 'grupodee_user');
 define('DB_PASS', '');
 define('DB_USER', 'root');
-//define('DB_PASS', '{}WDl6%~5~^X');
+//define('DB_PASS', '%@(4Na+nkm1r');
 define('DB_NAME', 'multisonidos');
 define('SETCHAR', 'UTF-8');
 // Tables Settings

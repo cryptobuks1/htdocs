@@ -114,7 +114,7 @@ if(isset($_GET['id'])){
                                                     <i class="fa fa-shopping-cart" ></i>
 
                                                 </a>
-                                                <a href="GE-shop_detalle.php?id=<?php echo $pr->id ?>" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                                <a href="MS-shop_detail.php?id=<?php echo $pr->id ?>" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
                                             </div>
                                         </div>
                                     </div>

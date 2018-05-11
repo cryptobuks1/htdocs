@@ -181,171 +181,46 @@
                             
                                 <div class="b-carousel-primary">
             <div class="j-carousel-primary">
-                <div class="b-carousel-primary__item">
-                    <div class="b-news-item b-news-item--medium-size f-news-item">
-                        <div class=" b-news-item__img view view-sixth">
-                            <img data-retina="" src="img/homepage/news_1.png" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                            <div class="b-item-hover-action__inner">
-                                <div class="b-item-hover-action__inner-btn_group">
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="shop_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                <?php $linea = new LineaPedido($con);
+                $lineap=$linea->getPopulares();
+                foreach ($lineap as $lp){
+                    $prop=$producto->getById($lp->idPro);
+                    $imgp=$imagen->getByProd($prop->id);
+                    $valor=number_format($prop->valor, 2, ',', '.');?>
+                    <div class="b-carousel-primary__item">
+                        <div class="b-news-item b-news-item--medium-size f-news-item">
+                            <div class=" b-news-item__img view view-sixth">
+                                <img data-retina src="Administer/public/img/<?php echo $imgp[0]->imagen; ?>" alt="">
+                                <div class="b-item-hover-action f-center mask">
+                                    <div class="b-item-hover-action__inner">
+                                        <div class="b-item-hover-action__inner-btn_group">
+                                            <a class="b-btn f-btn b-btn-light f-btn-light info addCart" data-img="<?php echo $img[0]->imagen ?>" data-modi="modi" data-idclasif="0" data-id="<?php echo $prop->id ?>" data-valor="<?php echo $prop->valor ?>" data-nombre="<?php echo $prop->name ?>"><i class="fa fa-shopping-cart"></i></a>
+                                            <a  href="MS-shop_detail.php?id=<?php echo $prop->id ?>" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="b-news-item__info">
-                <div class="f-news-item__info_category f-uppercase">Electrodomésticos</div>
-                <a href="shop_detail.html" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
-                <div class="b-news-item__info_text f-news-item__info_text">
-                    Vestibulum accumsan habitasse dictum id ut Curabitur amet libero mauris condimentum. Ut in lobortis nulla sed augueuisque aenean. Nullam adipiscing sapien ut mi....
-                </div>
-                
-                <div class="b-news-item__article">
-                    <span class="f-news-item__price f-primary-b b-left">$ 120.000</span>
-                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b">
-                        <i class="fa fa-shopping-cart"></i> Comprar
-                    </div>
-                </div>
-            </div>
+                            <div class="b-news-item__info">
+                                <?php $cap=$cat->getById($prop->categoria)?>
+                                <div class="f-news-item__info_category f-uppercase"><?php echo $cap->nombre?></div>
+                                <a href="MS-shop_detail.php?id=<?php echo $prop->id ?>" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b"><?php echo $prop->name ?></a>
+                                <div class="b-news-item__info_text f-news-item__info_text">
+                                    <?php echo $prop->descripcion ?>
+                                </div>
+
+                                <div class="b-news-item__article">
+                                    <span class="f-news-item__price f-primary-b b-left">$ <?php echo $valor ?></span>
+                                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b addCart" data-img="<?php echo $img[0]->imagen ?>" data-modi="modi" data-idclasif="0" data-id="<?php echo $prop->id ?>" data-valor="<?php echo $prop->valor ?>" data-nombre="<?php echo $prop->name ?>">
+                                        <i class="fa fa-shopping-cart"></i> Comprar
+                                    </div>
+                                </div>
+                            </div>
                             <div class="b-action-info f-primary-b">
                                 <div class="b-action-info_text f-action-info_text">PROMO</div>
                             </div>
-                    </div>
-                </div>
-                <div class="b-carousel-primary__item">
-                    <div class="b-news-item b-news-item--medium-size f-news-item">
-                        <div class=" b-news-item__img view view-sixth">
-                            <img data-retina="" src="img/homepage/news_1.png" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                            <div class="b-item-hover-action__inner">
-                                <div class="b-item-hover-action__inner-btn_group">
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="shop_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
                         </div>
-                        </div>
-                        <div class="b-news-item__info">
-                <div class="f-news-item__info_category f-uppercase">Electrodomésticos</div>
-                <a href="shop_detail.html" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
-                <div class="b-news-item__info_text f-news-item__info_text">
-                    Vestibulum accumsan habitasse dictum id ut Curabitur amet libero mauris condimentum. Ut in lobortis nulla sed augueuisque aenean. Nullam adipiscing sapien ut mi....
-                </div>
-                
-                <div class="b-news-item__article">
-                    <span class="f-news-item__price f-primary-b b-left">$ 120.000</span>
-                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b">
-                        <i class="fa fa-shopping-cart"></i> Comprar
                     </div>
-                </div>
-            </div>
-                            <div class="b-action-info f-primary-b">
-                                <div class="b-action-info_text f-action-info_text">PROMO</div>
-                            </div>
-                    </div>
-                </div>
-                <div class="b-carousel-primary__item">
-                    <div class="b-news-item b-news-item--medium-size f-news-item">
-                        <div class=" b-news-item__img view view-sixth">
-                            <img data-retina="" src="img/homepage/news_1.png" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                            <div class="b-item-hover-action__inner">
-                                <div class="b-item-hover-action__inner-btn_group">
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="shop_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="b-news-item__info">
-                <div class="f-news-item__info_category f-uppercase">Electrodomésticos</div>
-                <a href="shop_detail.html" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
-                <div class="b-news-item__info_text f-news-item__info_text">
-                    Vestibulum accumsan habitasse dictum id ut Curabitur amet libero mauris condimentum. Ut in lobortis nulla sed augueuisque aenean. Nullam adipiscing sapien ut mi....
-                </div>
-                
-                <div class="b-news-item__article">
-                    <span class="f-news-item__price f-primary-b b-left">$ 120.000</span>
-                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b">
-                        <i class="fa fa-shopping-cart"></i> Comprar
-                    </div>
-                </div>
-            </div>
-                            <div class="b-action-info f-primary-b">
-                                <div class="b-action-info_text f-action-info_text">PROMO</div>
-                            </div>
-                    </div>
-                </div>
-                <div class="b-carousel-primary__item">
-                    <div class="b-news-item b-news-item--medium-size f-news-item">
-                        <div class=" b-news-item__img view view-sixth">
-                            <img data-retina="" src="img/homepage/news_1.png" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                            <div class="b-item-hover-action__inner">
-                                <div class="b-item-hover-action__inner-btn_group">
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="shop_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="b-news-item__info">
-                <div class="f-news-item__info_category f-uppercase">Electrodomésticos</div>
-                <a href="shop_detail.html" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
-                <div class="b-news-item__info_text f-news-item__info_text">
-                    Vestibulum accumsan habitasse dictum id ut Curabitur amet libero mauris condimentum. Ut in lobortis nulla sed augueuisque aenean. Nullam adipiscing sapien ut mi....
-                </div>
-                
-                <div class="b-news-item__article">
-                    <span class="f-news-item__price f-primary-b b-left">$ 120.000</span>
-                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b">
-                        <i class="fa fa-shopping-cart"></i> Comprar
-                    </div>
-                </div>
-            </div>
-                            <div class="b-action-info f-primary-b">
-                                <div class="b-action-info_text f-action-info_text">PROMO</div>
-                            </div>
-                    </div>
-                </div>
-                <div class="b-carousel-primary__item">
-                    <div class="b-news-item b-news-item--medium-size f-news-item">
-                        <div class=" b-news-item__img view view-sixth">
-                            <img data-retina="" src="img/homepage/news_1.png" alt="">
-                            <div class="b-item-hover-action f-center mask">
-                            <div class="b-item-hover-action__inner">
-                                <div class="b-item-hover-action__inner-btn_group">
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>
-                                    <a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-shopping-cart"></i></a>
-                                    <a href="shop_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="b-news-item__info">
-                <div class="f-news-item__info_category f-uppercase">Electrodomésticos</div>
-                <a href="shop_detail.html" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
-                <div class="b-news-item__info_text f-news-item__info_text">
-                    Vestibulum accumsan habitasse dictum id ut Curabitur amet libero mauris condimentum. Ut in lobortis nulla sed augueuisque aenean. Nullam adipiscing sapien ut mi....
-                </div>
-                
-                <div class="b-news-item__article">
-                    <span class="f-news-item__price f-primary-b b-left">$ 120.000</span>
-                    <div class="b-btn f-btn b-right b-btn-sm-md f-btn-sm-md f-primary-b">
-                        <i class="fa fa-shopping-cart"></i> Comprar
-                    </div>
-                </div>
-            </div>
-                            <div class="b-action-info f-primary-b">
-                                <div class="b-action-info_text f-action-info_text">PROMO</div>
-                            </div>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
         </div>
                                 

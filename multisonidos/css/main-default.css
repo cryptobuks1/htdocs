@@ -12755,3 +12755,9 @@ textarea.b-product-card-textarea {
 .is-visible {
   display: block;
   visibility: visible; }
+.b-google-map__info-window-address-icon svg {
+  color: white;
+  vertical-align: middle;
+  line-height: 44px;
+  font-size: 21px;
+}

@@ -135,7 +135,7 @@
                             <div class="b-item-hover-action__inner">
                                 <div class="b-item-hover-action__inner-btn_group"><
                                     <!--<a href="#" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-heart"></i></a>-->
-                                    <a class="b-btn f-btn b-btn-light f-btn-light info addCart" data-img="<?php echo $img[0]->imagen ?>" data-modi="modi" data-idclasif="0" data-id="<?php echo $pr->id ?>" data-valor="<?php echo $pr->valor ?>" data-nombre="<?php echo $pr->name ?>""><i class="fa fa-shopping-cart "></i></a>
+                                    <a class="b-btn f-btn b-btn-light f-btn-light info addCart" data-img="<?php echo $img[0]->imagen ?>" data-modi="modi" data-idclasif="0" data-id="<?php echo $pr->id ?>" data-valor="<?php echo $pr->valor ?>" data-nombre="<?php echo $pr->name ?>"><i class="fa fa-shopping-cart "></i></a>
                                     <a href="MS-shop_detail?id=<?php echo $pr->id ?>" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                     <div class="b-news-item__info">
                         <?php $cap=$cat->getById($pr->categoria)?>
                         <div class="f-news-item__info_category f-uppercase"><i class="<?php echo $cap->img ?>"></i> <?php echo $cap->nombre ?></div>
-                        <a href="MS-shop_detail.php" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b">Morphy Richards</a>
+                        <a href="MS-shop_detail.php" class="b-news-item__info_title-big f-news-item__info_title-big f-primary-b"><?php echo $pr->name ?></a>
                         <div class="b-news-item__info_text f-news-item__info_text">
                             <?php echo $pr->descripcion ?>
                         </div>

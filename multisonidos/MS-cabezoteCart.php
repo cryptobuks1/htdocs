@@ -10,15 +10,15 @@ $pro=$producto->getFilter('ORDER BY id DESC LIMIT 0,2'); ?>
       <div class="b-top-options-panel">
           <div class="container">
               <div class="b-option-contacts f-option-contacts">
-                  <a href="mailto:frexystudio@gmail.com"><i class="fa fa-envelope-o"></i> info@multisonidos.com</a>
-                  <a href="#"><i class="fa fa-phone"></i> Cel.: (57) 310 282 3961  whatsapp </a>
-                  <a href="#"><i class="fa ">☎</i> Tel.: (57+2) 881 6218 - 839 5344</a>
+                  <a href="mailto:frexystudio@gmail.com"><i class="fas fa-envelope"></i> info@multisonidos.com</a>
+                  <a href="#"><i class="fas fa-mobile-alt"></i> Cel.: (57) 310 282 3961  whatsapp </a>
+                  <a href="#"><i class="fa fa-phone "></i> Tel.: (57+2) 881 6218 - 839 5344</a>
               </div>
               <div class="b-right">
                           <span class="b-header__social-box b-header__social-box--no-fon">
-                              <a href="#"><i class="fa fa-facebook"></i></a>
-                              <a href="#"><i class="fa fa-instagram"></i></a>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                              <a href="#"><i class="fab fa-facebook-square"></i></a>
+                              <a href="#"><i class="fab fa-instagram"></i></a>
+                              <a href="#"><i class="fab fa-linkedin"></i></a>
                           </span>
                           <span class="b-option-contacts f-option-contacts "><a href="#">Quiero ser Distribuidor</a>| </span>
               </div>

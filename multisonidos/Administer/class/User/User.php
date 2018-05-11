@@ -235,7 +235,7 @@ class User extends Mysqli
         return $query;
     }
     public function update($id){
-        $query="UPDATE usuarios SET nombre='".$this->nombre."',mail='".$this->mail."',clave='".$this->pass."'"
+        $query="UPDATE usuarios SET nombre='".$this->nombre."',mail='".$this->mail."'"
             .",telefono='".$this->telefono."',movil='".$this->celular."',direccion='".$this->direccion."'"
             .",ciudad='".$this->ciudad."',pais='".$this->pais."',tipo='".$this->tipo."' WHERE id=$id";
         $update=$this->con->query($query);

@@ -43,7 +43,9 @@ spl_autoload_register(function ($clase) {
         $ciudad = isset($_POST['ciudad']) ? $_POST['ciudad'] : '';
         $pais = isset($_POST['pais']) ? $_POST['pais'] : '';
         $tipo = isset($_POST['tipo']) ? $_POST['tipo'] : '';
-
+        $pass=isset($_POST['changePass']) ? $_POST['changePass'] : '';
+        $repass=isset($_POST['changeRepass']) ? $_POST['changeRepass'] : '';
+        echo $pass;
         if (empty($nombre) or empty($mail)) {
             $param = [
                 'ms' => 'Llene todos los campos con asterísco (obligatorio)',
@@ -54,15 +56,13 @@ spl_autoload_register(function ($clase) {
             if($pass!='') {
                 if(strcmp($pass, $repass)===0) {
                     $user->setPass($pass);
+                    $user->reset($id);
                 }else{
                     $param = [
                         'ms' => 'Las contraseñas no son iguales',
                         'clase' => 'alert-danger',
                         'alert' => 'Error'
                     ];
-
-                    header('Location:GE-micuenta.php');
-                    exit;
                 }
             }
             $user->setNombre($nombre);
@@ -143,6 +143,21 @@ spl_autoload_register(function ($clase) {
                                         ?>
                                         <form id="loginForm" action="editUsuario.php?id=<?php echo $_GET['id'] ?>" method="POST"  class="form-horizontal" >
                                             <div class="form-row">
+                                                <?php if($_SESSION['user']['id']===$_GET['id']){ ?>
+                                                <h3>Cambio de contraseña</h3>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputUser"><span class="text-label">Nueva contraseña</span></label>
+                                                        <input class="form-control" id="exampleInputUser" type="password" name="changePass"  planceholder="Nueva contraseña">
+                                                    </div>
+                                                </div><div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputUser"><span class="text-label">Otra vez la contraseña</span></label>
+                                                        <input class="form-control" id="exampleInputUser" type="password" name="changeRepass"  planceholder="Otra vez la contraseña">
+                                                    </div>
+                                                </div>
+                                                <hr/>
+                                                <?php } ?>
                                                 <div class="col-md-4">
                                                     <div class="form-group">
                                                         <label for="exampleInputUser"><span class="text-label">*Usuario</span></label>

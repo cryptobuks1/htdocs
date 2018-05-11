@@ -9,19 +9,19 @@ $dolar=$_POST['dolar'];
 $des=$_POST['des']/$dolar;
 if(isset($_SESSION['total'])) {
     $total = $_SESSION['total'] / $dolar;
-    $regreso   = "http://grupodeemprendedores.com/index/GE-procesar-pedido.php?des=".$_POST['des']."&precio=".$total."&cupon=".$cupon;
-    $cancelado = "http://grupodeemprendedores.com/index/GE-shop_cart.php";
+    $regreso   = "http://multisonidos.com/index/GE-procesar-pedido.php?des=".$_POST['des']."&precio=".$total."&cupon=".$cupon;
+    $cancelado = "http://multisonidos.com/index/GE-shop_cart.php";
 }else{
     $total=$_POST['precio']/$dolar;
-    $regreso   = "http://grupodeemprendedores.com/index/GE-pedido-finalizado.php";
-    $cancelado = "http://grupodeemprendedores.com/index/GE-portafolio_servicios.php";
+    $regreso   = "http://multisonidos.com/index/GE-pedido-finalizado.php";
+    $cancelado = "http://multisonidos.com/index/GE-portafolio_servicios.php";
 }
 $cupon=$_POST['cupon'];
 //URL's de retorno
 /*$regreso   = "http://localhost:801/grupoemp/GE-procesar-pedido.php";
 $cancelado = "http://localhost:801/grupoemp/GE-shop_cart.php";*/
-$regreso   = "http://grupodeemprendedores.com/index/GE-procesar-pedido.php?des=".$_POST['des']."&precio=".$total."&cupon=".$cupon;
-$cancelado = "http://grupodeemprendedores.com/index/GE-shop_cart.php";
+$regreso   = "http://multisonidos.com/index/GE-procesar-pedido.php?des=".$_POST['des']."&precio=".$total."&cupon=".$cupon;
+$cancelado = "http://multisonidos.com/index/GE-shop_cart.php";
 
 //NO MODIFICAR
 require 'bootstrap.php';

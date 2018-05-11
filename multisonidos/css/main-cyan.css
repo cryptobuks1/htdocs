@@ -2742,7 +2742,8 @@ border-radius: 0 0 50px 50px; }
     width: 30px;
     border-radius: 50%;
     background: #ebebeb;
-    text-align: center; }
+    text-align: center;
+  line-height: 28px;}
     .b-header__social-box a .fa {
       font-size: 14px;
       line-height: 30px;
@@ -12829,4 +12830,13 @@ textarea.b-product-card-textarea {
   top: 8px;
   right: 4px;
   cursor:pointer;
+}
+.b-google-map__info-window-address-icon svg {
+  color: white;
+  vertical-align: middle;
+
+  font-size: 21px;
+}
+.b-google-map__info-window-address-icon{
+  line-height: 44px;
 }
